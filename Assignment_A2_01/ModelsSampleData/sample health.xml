@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<NewsApiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://mynamespace/test/">
+  <Status>ok</Status>
+  <TotalResults>3</TotalResults>
+  <Articles>
+    <Article>
+      <Source>
+        <Name>Www.dn.se</Name>
+      </Source>
+      <Author>Lotta Olsson</Author>
+      <Title>Lotta O: Världen ur en blind mullvads synvinkel - DN.SE - Dagens Nyheter</Title>
+      <Description>Kåseri. När synen blev suddigare var det svårt att backa bilen men lätt att oroa sig inför besöket hos optikern. Sen hittades ett extra glasögonpar.</Description>
+      <Url>https://www.dn.se/kultur/lotta-o-varlden-ur-en-blind-mullvads-synvinkel/</Url>
+      <UrlToImage>https://cached-images.bonnier.news/swift/bilder/mly/e409f479-d4ee-4a63-bba4-8e4dc2db4390.jpeg?interpolation=lanczos-none&amp;fit=around%7C1024:576&amp;crop=1024:h;center,top&amp;output-quality=80</UrlToImage>
+      <PublishedAt>2021-11-10T06:55:41Z</PublishedAt>
+      <Content>Plötsligt var jag blind som en mullvad. Eller nå, kanske inte riktigt, men omvärlden började åtminstone bli tämligen suddig. Det gjorde inte så mycket, eftersom jag fortfarande kunde läsa böcker som … [+2146 chars]</Content>
+    </Article>
+    <Article>
+      <Source>
+        <Name>Ekuriren.se</Name>
+      </Source>
+      <Title>Nu sätter vaccineringen mot säsongsinfluensa igång – Ekuriren - Eskilstuna-Kuriren</Title>
+      <Description>Det råder högt bokningstryck när vaccinering mot årets säsongsinfluensa drar igång. Rädsla att säsongsinfluensan ska ta fart som RS-viruset.</Description>
+      <Url>https://ekuriren.se/artikel/jd616y1l</Url>
+      <UrlToImage>https://dms-api.ntm.eu/api/v1/images/jn65v8mr/ratio/rw/3/rh/2/width/1200</UrlToImage>
+      <PublishedAt>2021-11-09T15:08:42Z</PublishedAt>
+      <Content>Ansvarig utgivare och chefredaktör för ekuriren.se: Eva Burman (eva.burman@sormlandsmedia.se)
+Redaktionschef: Kristina Levin
+Nyhetschef: Ulrika Sjöblom</Content>
+    </Article>
+    <Article>
+      <Source>
+        <Name>Lakartidningen.se</Name>
+      </Source>
+      <Title>Imy inleder granskning av SKR:s väntetidsdatabas - Läkartidningen</Title>
+      <Description>Integritetsskyddsmyndigheten ska granska om Sveriges Kommuner och regioner har rätt att behandla uppgifter som samlats in från patientjournaler i den nationella väntetidsdatabasen.</Description>
+      <Url>http://lakartidningen.se/aktuellt/nyheter/2021/11/imy-inleder-granskning-av-skrs-vantetidsdatabas/</Url>
+      <UrlToImage>http://lakartidningen.se/wp-content/uploads/2021/05/gdpr_MP_25444082-general-data-protection-regulation-gdpr.jpg</UrlToImage>
+      <PublishedAt>2021-11-09T09:56:24Z</PublishedAt>
+      <Content>Den nationella väntetidsdatabasen förvaltas av Sveriges Kommuner och regioner (SKR) och används för att ta fram statistik kring väntetider i vården. Informationen bygger på uppgifter som samlats in f… [+1181 chars]</Content>
+    </Article>
+  </Articles>
+</NewsApiData>

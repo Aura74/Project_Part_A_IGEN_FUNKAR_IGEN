@@ -1,0 +1,244 @@
+<?xml version="1.0"?>
+<NewsApiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://mynamespace/test/">
+  <Status>ok</Status>
+  <TotalResults>70</TotalResults>
+  <Articles>
+    <Article>
+      <Source>
+        <Name>Swedroid.se</Name>
+      </Source>
+      <Title>Rapport: Google och Samsung tog fram Wear OS 3 i hemlighet, övriga tillverkare visste inget - Swedroid</Title>
+      <Description>Googles operativsystem för smartklockor, Wear OS, hade stagnerat. När Google tillkännagav Wear OS 3 i samarbete med Samsung tidigare i år sågs det som en ny era för plattformen och ett välbehövligt lyft. Wear OS hade även mycket att vinna på att jätten Samsun…</Description>
+      <Url>https://swedroid.se/rapport-google-och-samsung-tog-fram-wear-os-3-i-hemlighet-ovriga-tillverkare-visste-inget/</Url>
+      <UrlToImage>https://cdn77.swedroid.se/wp-content/uploads/2021/08/samsung-galaxy-watch-4-officiell-1-600x448.jpg</UrlToImage>
+      <PublishedAt>2021-11-10T11:03:44Z</PublishedAt>
+      <Content>Wear OS hade även mycket att vinna på att jätten Samsung återvände till systemet, efter att i åratal använt egna alternativet Tizen för smartklockor. Google visade sig dock snabbt ha skapat en soppa … [+1036 chars]</Content>
+    </Article>
+    <Article>
+      <Source>
+        <Name>Swedroid.se</Name>
+      </Source>
+      <Title>Microsoft tar sig an Chrome OS genom Windows 11 SE - Swedroid</Title>
+      <Description>Chromebooks har nått stora framgångar i skolor, inte minst i USA. Microsoft har hittills inte erbjudit något handfast alternativ. Företaget har nu introducerat en utmanare i form av Windows 11 SE och laptoppen Surface Laptop SE. Båda är specifikt avsedda för …</Description>
+      <Url>https://swedroid.se/microsoft-tar-sig-an-chrome-os-genom-windows-11-se/</Url>
+      <UrlToImage>https://cdn771.swedroid.se/wp-content/uploads/2021/11/microsoft-surface-laptop-se-1.jpg</UrlToImage>
+      <PublishedAt>2021-11-10T10:33:07Z</PublishedAt>
+      <Content>Båda är specifikt avsedda för elever och skolor. Windows 11 SE kommer bara köras på billigare bärbara dator. Systemet riktar sig med andra ord inte till konsumenter. Microsoft har under 18 månader sa… [+1297 chars]</Content>
+    </Article>
+    <Article>
+      <Source>
+        <Name>Computersweden.idg.se</Name>
+      </Source>
+      <Title>It-profilen satsar stort på ny sökmotor som ska utmana Google - Computer Sweden</Title>
+      <Description>You.com är ett startup som siktar på att utmana Google genom en mer anpassningsbar sökmotor. Nu går Salesforces vd Marc Benioff in tungt i bolaget.</Description>
+      <Url>https://computersweden.idg.se/2.2683/1.758607/it-profilen-satsar-stort-pa-sokmotor-som-ska-utmana-google</Url>
+      <UrlToImage>https://www.idg.se/editorial/1200/path/1.758607.1636535120!imageUploader/2185689752.jpeg</UrlToImage>
+      <PublishedAt>2021-11-10T08:58:00Z</PublishedAt>
+      <Content>Marc Benioff leder en investeringsrunda i You.com på 20 miljoner dollar, skriver nyhetsbyrån Reuters.
+Riskkapitalister har i hög grad undvikit att investera i Google-konkurrenter på grund av deras e… [+946 chars]</Content>
+    </Article>
+    <Article>
+      <Source>
+        <Name>Nyteknik.se</Name>
+      </Source>
+      <Author>Viktor Krylmark</Author>
+      <Title>Test: Motorola Defy (2021) – Hur stryktålig är mobilen egentligen? - Ny Teknik</Title>
+      <Description>Motorola har lanserat en uppföljare till Defy. En stryktålig rackare. Ny Tekniks Viktor Krylmark undersöker exakt hur mycket den tål.</Description>
+      <Url>https://www.nyteknik.se/tester/test-motorola-defy-2021-hur-stryktalig-ar-mobilen-egentligen-7024098</Url>
+      <UrlToImage>https://www.nyteknik.se/e0y1mc-motorola-defy.jpg/binary/original/motorola-defy.jpg</UrlToImage>
+      <PublishedAt>2021-11-10T08:22:00Z</PublishedAt>
+      <Content>Motorola har lanserat en uppföljare till Defy. En stryktålig rackare. Ny Tekniks Viktor Krylmark undersöker exakt hur mycket den tål.Motorola Defy är ingen vanlig mobiltelefon. Det är en mobiltelefon… [+1896 chars]</Content>
+    </Article>
+    <Article>
+      <Source>
+        <Name>Macworld.idg.se</Name>
+      </Source>
+      <Title>Apple utlovar uppdatering för Iphone 13 – skärmbyte ska inte längre stänga av Face ID - MacWorld</Title>
+      <Description>Förra veckan bekräftade Ifixit att skärmbyten i Iphone 13 leder till att Face ID slutar fungera. Nu säger Apple att en mjukvaruuppdatering ska fixa det.</Description>
+      <Url>https://macworld.idg.se/2.1038/1.758605/apple-utlovar-uppdatering-for-iphone-13--skarmbyte-ska-inte-langre-stanga-av-face-id</Url>
+      <UrlToImage>https://www.idg.se/editorial/1200/path/1.758605.1636531253!imageUploader/1191715905.jpg</UrlToImage>
+      <PublishedAt>2021-11-10T08:04:47Z</PublishedAt>
+      <Content>Apple har i många år infört olika åtgärder i Iphone som gör det svårare för fristående serviceverkstäder att reparera telefonen. I nya Iphone 13 har företaget gjort att Face ID slutar fungera om skär… [+750 chars]</Content>
+    </Article>
+    <Article>
+      <Source>
+        <Name>Dagensmedia.se</Name>
+      </Source>
+      <Author>Madeleine Nilsson</Author>
+      <Title>Så blir Bonnier News nya organisation för läsarintäkter - Dagens Media</Title>
+      <Description>UPPDATERAD. I våras klev Alexander Lydecker in som ansvarig för läsarintäkter inom Bonnier News. Nu genomförs en omfattande omorganisation. Målet är att fördubbla prenumerationsintäkterna.</Description>
+      <Url>https://www.dagensmedia.se/medier/dagspress/sa-blir-bonnier-news-nya-organisation-for-lasarintakter/</Url>
+      <UrlToImage>https://cached-images.bonnier.news/swift/bilder/mly/8814d9ad-acdd-42d3-b7f9-22bcb0196078.jpeg?downsize=4096:*</UrlToImage>
+      <PublishedAt>2021-11-10T06:39:15Z</PublishedAt>
+      <Content>Dagens Media kunde i maj rapportera om att Bonnier News skulle samla alla verksamheter inom läsarintäkter i en och samma organisation, under ledning av Alexander Lydecker, CCO. Tidigare har läsarintä… [+1901 chars]</Content>
+    </Article>
+    <Article>
+      <Source>
+        <Name>Macworld.idg.se</Name>
+      </Source>
+      <Title>Minnesläckor förlamar min M1 MacBook Pro – inte ensam om problemet - MacWorld</Title>
+      <Description>Har M1 ett problem med minnesläckor? Det verkar som att jag inte är ensam om problemet.</Description>
+      <Url>https://macworld.idg.se/2.1038/1.758563/minneslackor-m1-macbook-pro</Url>
+      <UrlToImage>https://www.idg.se/editorial/1200/path/1.758563.1636539371!imageUploader/646043355.jpg</UrlToImage>
+      <PublishedAt>2021-11-10T06:16:26Z</PublishedAt>
+      <Content>Uppdatering: Sedan jag skrev den här kolumnen har flera Macworld-läsare berättat om liknande problem på M1 Macbooks. Vissa läsare har inaktiverat tillägg och andra har föreslagit att det är relaterat… [+5045 chars]</Content>
+    </Article>
+    <Article>
+      <Source>
+        <Name>Computersweden.idg.se</Name>
+      </Source>
+      <Title>Qualcomm släpper ny utvecklingsplattform för AR - Computer Sweden - Computer Sweden</Title>
+      <Description>I samma veva meddelar Qualcomm också att de köpt Clay AIR.</Description>
+      <Url>https://computersweden.idg.se/2.2683/1.758602/qualcomm-slapper-ny-utvecklingsplattform-for-ar</Url>
+      <UrlToImage>https://www.idg.se/editorial/1200/path/1.758602.1636478232!imageUploader/4026205394.jpg</UrlToImage>
+      <PublishedAt>2021-11-10T05:55:00Z</PublishedAt>
+      <Content>Qualcomm har nu släppt en ny utvecklingsplattform, Snapdragon Spaces, som ska fokusera på utvecklingen av augmented reality-upplevelser kopplade till ett headset.
+För stunden är Lenovos Thinkreality… [+636 chars]</Content>
+    </Article>
+    <Article>
+      <Source>
+        <Name>Sweclockers.com</Name>
+      </Source>
+      <Author>Arvid Wittwång</Author>
+      <Title>Mozilla Firefox blir första stora webbläsaren i Windows-butiken - SweClockers</Title>
+      <Description>Att leta på webben och stega igenom en installationsprocess blir ett minne blott, för den som har Windows och önskar ett Chromium-alternativ.</Description>
+      <Url>https://www.sweclockers.com/nyhet/33152-mozilla-firefox-blir-forsta-stora-webblasaren-i-windows-butiken</Url>
+      <UrlToImage>https://www.sweclockers.com/artikel/33152/og-image</UrlToImage>
+      <PublishedAt>2021-11-10T05:53:00Z</PublishedAt>
+      <Content>Globalt har Google Chrome ett fast grepp om positionen som den största webbläsaren, medan Apples Safari och Microsofts Chromium-baserade Edge också används av en betydande skara. Siffror visar dock a… [+1175 chars]</Content>
+    </Article>
+    <Article>
+      <Source>
+        <Name>Www.di.se</Name>
+      </Source>
+      <Author>Magnus Dagel</Author>
+      <Title>Experten Jan Blomgren om riskerna med vindkraft och solkraft - Dagens Industri</Title>
+      <Description>Jan Blomgren, expert på energisystem och tidigare professor i kärnteknik: Omställningen mot fossilfritt ger högre och mer volatila elpriser.</Description>
+      <Url>https://www.di.se/analys/expertens-varning-efter-prischocken-vanj-er-det-har-ar-det-nya-normala/</Url>
+      <UrlToImage>https://cached-images.bonnier.news/swift/bilder/mly/b8c9df0d-34d3-464b-9ba7-2a8453a9225d.jpeg?interpolation=lanczos-none&amp;crop=1.777778h:h;*,*&amp;crop=w:0.5625w;*,*&amp;downsize=1200:675&amp;output-quality=70</UrlToImage>
+      <PublishedAt>2021-11-09T20:09:57Z</PublishedAt>
+      <Content>I Lund pågår just nu ett av Sveriges största byggprojekt genom tiderna. Här byggs European Spallation Source, ett EU-samarbete i form av en internationell forskningsanläggning som bland annat ska inh… [+2017 chars]</Content>
+    </Article>
+    <Article>
+      <Source>
+        <Name>Feber.se</Name>
+      </Source>
+      <Title>Logitech Pop Keys är ett tangentbord med emoji-tangenter. Är också mekaniskt och kommer i tre färger - Feber</Title>
+      <Description>Logitech släpper nu ett tangentbord med en tangentrad där användare kan sätta dit emoji-tangenter. Till skillnad från Logitechs vanliga utbud kommer tangentborden i lite mer spännande färger: gul/svart, rosa och gul/lila. För att matcha tangentborden finns äv…</Description>
+      <Url>https://feber.se/pc/logitech-pop-keys-ar-ett-tangentbord-med-emoji-tangenter/431632/</Url>
+      <UrlToImage>https://static.feber.se/article_images/52/52/31/525231.jpg</UrlToImage>
+      <PublishedAt>2021-11-09T19:37:33Z</PublishedAt>
+      <Content>Logitech släpper nu ett tangentbord med en tangentrad där användare kan sätta dit emoji-tangenter. Till skillnad från Logitechs vanliga utbud kommer tangentborden i lite mer spännande färger: gul/sva… [+868 chars]</Content>
+    </Article>
+    <Article>
+      <Source>
+        <Name>Ekuriren.se</Name>
+      </Source>
+      <Title>Dödsfall: "Lasse har lagt kameran på hatthyllan" – Ekuriren - Eskilstuna-Kuriren</Title>
+      <Description>Fotografen, bildkonstnären, läraren och Eskilstuna-Kurirens mångårige bildchef Lasse Larsson är död. Han somnade in den 3 november, 81 år gammal.</Description>
+      <Url>https://ekuriren.se/artikel/jv93gx1l</Url>
+      <UrlToImage>https://dms-api.ntm.eu/api/v1/images/l7gq7dxl/ratio/rw/3/rh/2/width/1200</UrlToImage>
+      <PublishedAt>2021-11-09T19:02:49Z</PublishedAt>
+      <Content>Ansvarig utgivare och chefredaktör för ekuriren.se: Eva Burman (eva.burman@sormlandsmedia.se)
+Redaktionschef: Kristina Levin
+Nyhetschef: Ulrika Sjöblom</Content>
+    </Article>
+    <Article>
+      <Source>
+        <Name>Sweclockers.com</Name>
+      </Source>
+      <Author>Noelia Donoso Ahlström</Author>
+      <Title>Noctua lanserar NH-L9i för sockel LGA 1700 - SweClockers</Title>
+      <Description>Den klassiska lågprofilskylaren släpps i nytt utförande för att passa Intels nya sockel. Den sällskapas även av en ny fläkttunnel.</Description>
+      <Url>https://www.sweclockers.com/nyhet/33151-noctua-lanserar-nh-l9i-for-sockel-lga-1700</Url>
+      <UrlToImage>https://www.sweclockers.com/artikel/33151/og-image</UrlToImage>
+      <PublishedAt>2021-11-09T18:37:00Z</PublishedAt>
+      <Content>Små, kompakta datorbyggen innebär allt som oftast behov av kylningslösningar modell mindre, något Noctua erbjuder i form av den nästan tio år gamla modellen NH-L9i. Det är en kompakt lågprofilskylare… [+2423 chars]</Content>
+    </Article>
+    <Article>
+      <Source>
+        <Name>Www.svt.se</Name>
+      </Source>
+      <Author>SVT Nyheter</Author>
+      <Title>Polis utbildade andra i registerslagningar – döms själv för dataintrång - Sveriges Television</Title>
+      <Description>En polis i Jönköpings län har erkänt nio fall av dataintrång och döms nu i tingsrätten till 50 dagsböter på totalt 26 000 kronor.</Description>
+      <Url>https://www.svt.se/nyheter/lokalt/jonkoping/polis-utbildade-andra-i-registerslagningar-doms-sjalv-for-dataintrang</Url>
+      <UrlToImage>https://www.svtstatic.se/image/custom/650/27820031/1?format=auto&amp;ratio=1.91</UrlToImage>
+      <PublishedAt>2021-11-09T17:47:16Z</PublishedAt>
+      <Content>Polismannen som utbildat andra i vikten av att inte göra privata slagningar i polisens register, har inte kunnat förklara hans egna slagningar på bland annat anhöriga. Han har i förhör sagt att han g… [+202 chars]</Content>
+    </Article>
+    <Article>
+      <Source>
+        <Name>Www.di.se</Name>
+      </Source>
+      <Author>Ida Hansson Brusewitz</Author>
+      <Title>Kryptomarknaden slår rekord - Dagens Industri</Title>
+      <Description>Kryptovalutor som bitcoin, Ethereums ether, Solana och Cardano har stigit till nya nivåer. Totalt är kryptomarknaden värd över 3.100 miljarder dollar.</Description>
+      <Url>https://www.di.se/digital/kryptorekord-pa-26-500-miljarder-uppstickare-pa-frammarsch/</Url>
+      <UrlToImage>https://cached-images.bonnier.news/swift/bilder/mly/30e8e04e-4392-4d44-b03a-f2a24e509a0c.jpeg?interpolation=lanczos-none&amp;crop=1.777778h:h;*,*&amp;crop=w:0.5625w;*,*&amp;downsize=1200:675&amp;output-quality=70</UrlToImage>
+      <PublishedAt>2021-11-09T17:46:03Z</PublishedAt>
+      <Content>Nyfiken på Ukraina som europeiskt teknikcentrum? Delta kostnadsfritt i Sweden-Ukraine Business Forum  
+Under de dystra pandemiåren har Ukrainas it-sektor utgjort ett lysande undantag. Landets techin… [+5022 chars]</Content>
+    </Article>
+    <Article>
+      <Source>
+        <Name>Swedroid.se</Name>
+      </Source>
+      <Title>Poco presenterar budgetmobilen M4 Pro - Swedroid</Title>
+      <Description>Pocos nya telefon M4 Pro är långt från lika kraftfull som Pro-modellerna i toppskiktet, men den erbjuder en del trevliga specifikationer för ett förhållandevis lågt pris. M4 Pro har en 6,6-tums LCD-skärm med FHD+-upplösning, 90Hz uppdateringsfrekvens, 240Hz u…</Description>
+      <Url>https://swedroid.se/poco-presenterar-budgetmobilen-m4-pro/</Url>
+      <UrlToImage>https://cdn77.swedroid.se/wp-content/uploads/2021/11/poco-m4-pro-bild-1.jpg</UrlToImage>
+      <PublishedAt>2021-11-09T16:31:00Z</PublishedAt>
+      <Content>M4 Pro har en 6,6-tums LCD-skärm med FHD+-upplösning, 90Hz uppdateringsfrekvens, 240Hz uppdateringsfrekvens och Gorilla Glass 3. Telefonen erbjuder 4GB/64GB lagring och 64GB/128GB lagringsutrymme.
+ … [+919 chars]</Content>
+    </Article>
+    <Article>
+      <Source>
+        <Name>M3.idg.se</Name>
+      </Source>
+      <Title>Nu finns EKG-mätningar till Fitbit Charge 5 - M3</Title>
+      <Description>Samtidigt rullar även Premium-funktionen Dagsform ut till flera Fitbit-enheter.</Description>
+      <Url>https://m3.idg.se/2.1022/1.758599/fitbit-charge-5-ekg</Url>
+      <UrlToImage>https://www.idg.se/editorial/1200/path/1.758599.1636469395!imageUploader/1759422392.jpg</UrlToImage>
+      <PublishedAt>2021-11-09T14:51:55Z</PublishedAt>
+      <Content>Fitbit Charge 5 är en av de bästa produkterna i sin kategori just nu – det hävdar i alla fall vi. Nu blir det nysläppta aktivitetsarmbandet än mer komplett i och med utrullningen av den EKG-mätningsf… [+1331 chars]</Content>
+    </Article>
+    <Article>
+      <Source>
+        <Name>Macworld.idg.se</Name>
+      </Source>
+      <Title>Sällsynt Apple 1-dator i trä auktioneras ut - MacWorld</Title>
+      <Description>En av de allra första Apple-datorerna från 1976 har nu fått en ny ägare.</Description>
+      <Url>https://macworld.idg.se/2.1038/1.758582/sallsynt-apple-1-dator-i-tra-auktioneras-ut</Url>
+      <UrlToImage>https://www.idg.se/editorial/1200/path/1.758582.1636548819!imageUploader/3999359429.jpg</UrlToImage>
+      <PublishedAt>2021-11-09T14:00:21Z</PublishedAt>
+      <Content>Uppdatering (2021-11-10):
+Häromdagen uppmärksammade vi att en sällsynt Apple 1-dator i trä från 1976 skulle auktioneras ut i Kalifornien.
+Nu har auktionen avslutats och det vinnande budet landade e… [+1637 chars]</Content>
+    </Article>
+    <Article>
+      <Source>
+        <Name>Www.di.se</Name>
+      </Source>
+      <Author>Jonathan Axelsson</Author>
+      <Title>Elon Musk bror mångmiljonsålde i Tesla dagen före Twitter-omröstning - Dagens Industri</Title>
+      <Description />
+      <Url>https://www.di.se/live/elon-musk-bror-mangmiljonsalde-i-tesla-dagen-fore-twitter-omrostning/</Url>
+      <UrlToImage>https://cached-images.bonnier.news/swift/bilder/mly/513d26d6-dd28-41d4-b8d7-8bc0e0888c72.jpeg?interpolation=lanczos-none&amp;crop=1.777778h:h;*,*&amp;crop=w:0.5625w;*,*&amp;downsize=1200:675&amp;output-quality=70</UrlToImage>
+      <PublishedAt>2021-11-09T13:44:23Z</PublishedAt>
+      <Content>Läs mer om hur EKN kan hjälpa exportföretag att växa
+ Totalt rör det sig om gröna investeringar på runt 1 100 miljarder kronor. Det är investeringar som kommer att förändra Norrland i grunden, säger… [+2318 chars]</Content>
+    </Article>
+    <Article>
+      <Source>
+        <Name>Feber.se</Name>
+      </Source>
+      <Title>Denuvo orsakade spelstrul i helgen . Spel startade inte på grund av utgången hemsida - Feber</Title>
+      <Description>Det ständigt ogillade Denuvo satte nyligen lite käppar i hjulet för spelare som ville tillbringa lite kvalitetstid i vissa spel i helgen. I stället för att puckla på fiender i spel som Guardians of the Galaxy möttes spelare av meddelandet att servern inte var…</Description>
+      <Url>https://feber.se/spel/denuvo-orsakade-spelstrul-i-helgen-/431610/</Url>
+      <UrlToImage>https://static.feber.se/article_images/52/51/26/525126.jpg</UrlToImage>
+      <PublishedAt>2021-11-09T13:30:55Z</PublishedAt>
+      <Content>Det ständigt ogillade Denuvo satte nyligen lite käppar i hjulet för spelare som ville tillbringa lite kvalitetstid i vissa spel i helgen. I stället för att puckla på fiender i spel som Guardians of t… [+808 chars]</Content>
+    </Article>
+  </Articles>
+</NewsApiData>

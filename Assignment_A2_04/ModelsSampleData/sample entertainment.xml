@@ -1,0 +1,251 @@
+<?xml version="1.0"?>
+<NewsApiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://mynamespace/test/">
+  <Status>ok</Status>
+  <TotalResults>70</TotalResults>
+  <Articles>
+    <Article>
+      <Source>
+        <Name>Newsner.com</Name>
+      </Source>
+      <Title>Norska hovet bekräftar – nya beskedet om kronprins Haakons hälsa - MSN</Title>
+      <Description>Under tisdagen kom det tråkiga beskedet att norska kronprins Haakon har blivit sjuk. Detta ledde till att flera åtaganden ställdes in för kronprinsen. Nu ger norska hovet nytt besked om Haakons hälsa. Flera åtaganden var ... Artikeln Norska hovet bekräftar – …</Description>
+      <Url>https://nojeslivet.newsner.com/kungligt/norska-hovet-bekraftar-nya-beskedet-om-kronprins-haakons-halsa/</Url>
+      <UrlToImage>https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AAQuDyg.img?h=315&amp;w=600&amp;m=6&amp;q=60&amp;o=t&amp;l=f&amp;f=jpg&amp;x=636&amp;y=543</UrlToImage>
+      <PublishedAt>2021-11-10T11:47:24Z</PublishedAt>
+      <Content>Under tisdagen kom det tråkiga beskedet att norska kronprins Haakon har blivit sjuk.
+Detta ledde till att flera åtaganden ställdes in för kronprinsen.
+Nu ger norska hovet nytt besked om Haakons häl… [+2080 chars]</Content>
+    </Article>
+    <Article>
+      <Source>
+        <Name>Metromode.se</Name>
+      </Source>
+      <Title>Khloe Kardashians sexiga bilder efter tragedin på Astro World upprör följarna - helt tondöv - Metro Mode</Title>
+      <Description>Det har gått knappt en vecka sedan tragedin på Astroworld där åtta unga personer</Description>
+      <Url>https://metromode.se/noje/khloe-kardashians-sexiga-bilder-efter-tragedin-pa-astro-world-uppror-foljarna-helt-tondov/</Url>
+      <UrlToImage>https://metromode.se/files/2021/11/khloe-kardashian-astro-world-stor.png</UrlToImage>
+      <PublishedAt>2021-11-10T11:26:27Z</PublishedAt>
+      <Content>Det har gått knappt en vecka sedan tragedin på Astroworld där åtta unga personer miste livet. Nu kritiseras Khloe Kardashian för att vara okänslig på grund av sina senaste bilder på Instagram. Foto: … [+1598 chars]</Content>
+    </Article>
+    <Article>
+      <Source>
+        <Name>Moviezine.se</Name>
+      </Source>
+      <Title>Paul Rudd utsedd till årets sexigaste man - MovieZine</Title>
+      <Description>Tidningen People har än en gång hittat Sexiest Man Alive.</Description>
+      <Url>https://www.moviezine.se/nyheter/paul-rudd-utsedd-till-arets-sexigaste-man</Url>
+      <UrlToImage>https://d2iltjk184xms5.cloudfront.net/uploads/photo/file/420676/cf7f8838e97ecb195572f7798e755fe6-rudd.jpeg</UrlToImage>
+      <PublishedAt>2021-11-10T11:00:00Z</PublishedAt>
+      <Content>Utmärkelsen Sexiest Man Alive har sedan år 1985 gått till Hollyoodstjärnor och nöjesprofiler som Mel Gibson, Matthew McConaughey, Johnny Depp, Ryan Reynolds, David Beckham, John Legend och Channing T… [+376 chars]</Content>
+    </Article>
+    <Article>
+      <Source>
+        <Name>Www.nwt.se</Name>
+      </Source>
+      <Author>Lena Richardson</Author>
+      <Title>Fem värmländska konstnärer klara för Liljevalchs vårsalong - Säffle-Tidningen</Title>
+      <Description>Fem konstnärer i Värmland och två från Dalsland klarade juryns stränga nålsöga och kommer att få ställa ut på anrika Liljevalchs vårsalong 2022.</Description>
+      <Url>https://www.nwt.se/2021/11/10/fem-varmlandska-konstnarer-klara-for-liljevalchs-varsalong/</Url>
+      <UrlToImage>https://imengine.public.nwt.infomaker.io?uuid=323ef0a0-c5c7-58a2-944f-abbf1811b61b&amp;function=cropresize&amp;type=preview&amp;source=false&amp;q=75&amp;crop_w=0.99999&amp;crop_h=0.69756&amp;x=1.0E-5&amp;y=0.14622&amp;width=1200&amp;height=628</UrlToImage>
+      <PublishedAt>2021-11-10T10:47:00Z</PublishedAt>
+      <Content>Prova Plus för bara 1 kr om dagen
+Med Plus får du tillgång till allt innehåll på sajten och i vår nyhetsapp. Du betalar 90 kr för de första 90 dagarna, därefter ord. pris 129 kr/mån. Ingen bindnings… [+227 chars]</Content>
+    </Article>
+    <Article>
+      <Source>
+        <Id>goteborgs-posten</Id>
+        <Name>Göteborgs-Posten</Name>
+      </Source>
+      <Author>TT</Author>
+      <Title>"Ronja Rövardotter" blir familjeteater | GP - Göteborgs-Posten</Title>
+      <Description />
+      <Url>https://www.gp.se/kultur/kultur-nöje/ronja-rövardotter-blir-familjeteater-1.58929738</Url>
+      <UrlToImage>http://www.gp.se/image/policy:1.58929711:1636540862/image.jpg?f=Wide%26w=1200%26%24p%24f%24w=834285a</UrlToImage>
+      <PublishedAt>2021-11-10T10:41:04Z</PublishedAt>
+      <Content>Astrid Lindgrens Ronja Rövardotter blir familjeteater. Den 18 december är det premiär för "Ronja Rövardotter" på Intiman i Stockholm. Huvudrollen som Ronja spelas växelvis av Lea Antunovic-Lindblad, … [+636 chars]</Content>
+    </Article>
+    <Article>
+      <Source>
+        <Name>Www.hn.se</Name>
+      </Source>
+      <Author>TT</Author>
+      <Title>Suzanne Osten ställer saker på sin spets - Hallands Nyheter</Title>
+      <Description>Vuxenteater och babydrama – allt hon gjort och gör – utgår från det som Suzanne Osten kallar för barnpositionen i sitt liv. I sin självbiografi vill hon berätta hur det var – eller hur hon tyckte att det var.</Description>
+      <Url>https://www.hn.se/nöje/suzanne-osten-ställer-saker-på-sin-spets-1.58929418</Url>
+      <UrlToImage>http://www.hn.se/image/policy:1.58929287:1636540700/image.jpg?f=Wide%26w=1200%26%24p%24f%24w=834285a</UrlToImage>
+      <PublishedAt>2021-11-10T10:38:48Z</PublishedAt>
+      <Content>Suzanne Osten ligger uppochnedvänd, iklädd i knallgröna Mahjongkläder, i en fåtölj och röker. Omslagsbilden skulle kunna föreställa ett slags vuxen Pippi och ändå absolut inte, eftersom det är omöjli… [+6886 chars]</Content>
+    </Article>
+    <Article>
+      <Source>
+        <Name>Sverigesradio.se</Name>
+      </Source>
+      <Author>Sveriges Radio</Author>
+      <Title>Nobelpristagaren Orhan Pamuk riskerar åtal för uppvigling - Kulturnytt i P1 - Sveriges Radio</Title>
+      <Description>Den turkiske nobelpristagaren Orhan Pamuk riskerar att ställas inför rätta för uppvigling på grund av sin nya roman ”Pestnätter”, rapporterar Dagens nyheter.Vissa ...</Description>
+      <Url>https://sverigesradio.se/artikel/nobelpristagaren-orhan-pamuk-riskerar-atal-for-uppvigling</Url>
+      <UrlToImage>https://static-cdn.sr.se/images/478/542beebe-2cdc-4ae8-ab19-28fd94785a5b.jpg</UrlToImage>
+      <PublishedAt>2021-11-10T10:17:14Z</PublishedAt>
+    </Article>
+    <Article>
+      <Source>
+        <Name>Www.dn.se</Name>
+      </Source>
+      <Author>Alexandra Sundqvist</Author>
+      <Title>Alexandra Sundqvist: Så förändrade Spice Girls musikvärlden - DN.SE - Dagens Nyheter</Title>
+      <Description>Dokumentärserien ”Spice Girls. När girl power förändrade världen” visar att kvinnokroppen är och förblir ett slagfält, skriver Alexandra Sundqvist.</Description>
+      <Url>https://www.dn.se/kultur/alexandra-sundqvist-sa-forandrade-spice-girls-systerskap-musikvarlden/</Url>
+      <UrlToImage>https://cached-images.bonnier.news/swift/bilder/mly/0fcea3ac-1626-42c2-9be4-b708335b7f7a.jpeg?interpolation=lanczos-none&amp;fit=around%7C724:408&amp;crop=724:h;center,top&amp;output-quality=80</UrlToImage>
+      <PublishedAt>2021-11-10T10:04:47Z</PublishedAt>
+      <Content>I år är det tjugofem år sedan Spice Girls släppte sitt första album Spice. Det som inleds med monsterhitten Wannabe, vars kantiga produktion, otåliga energi och bjärta musikvideoestetik banade väg fö… [+3013 chars]</Content>
+    </Article>
+    <Article>
+      <Source>
+        <Name>Aftonbladet.se</Name>
+      </Source>
+      <Author>Petter J Larsson</Author>
+      <Title>Armina Moradi från Bachelor om natten med Ciarran Stott - Aftonbladet</Title>
+      <Description>Armina Moradi, 28, fick lämna årets ”Bachelor”. Då spenderade hon en natt med en deltagare i ”Bachelorette” som börjar n</Description>
+      <Url>https://www.aftonbladet.se/nojesbladet/a/1OrjGW/bachelor-armina-om-natten-med-bachelorette-deltagaren</Url>
+      <UrlToImage>https://images.aftonbladet-cdn.se/v2/images/14dfcc23-af8b-477f-8b7e-ef23462eb43a?fit=crop&amp;format=auto&amp;h=900&amp;q=50&amp;w=1600&amp;s=400850718d9c77c873a6a47fb41c6e32f4ea253b</UrlToImage>
+      <PublishedAt>2021-11-10T09:57:58Z</PublishedAt>
+      <Content>Publicerad: Mindre än 3 tim sedan
+Uppdaterad: Mindre än 30 min sedan
+Armina Moradi, 28, fick lämna årets Bachelor.
+Då spenderade hon en natt med en deltagare i Bachelorette som börjar nästa vecka.… [+1761 chars]</Content>
+    </Article>
+    <Article>
+      <Source>
+        <Name>Feber.se</Name>
+      </Source>
+      <Title>Netflix testar TikTok-liknande funktion för barn. Kids Clips visar korta snuttar från barnprogram - Feber</Title>
+      <Description>Nyhetsbyrån Bloomberg rapporterar att Netflix har börjat testa en ny funktion i sin iOS-app vilken man kallar för Kids Clips.  Kids Clips beskrivs som x22tiktok-liknandex22 funktion som visar korta snuttar från Netflix barnprogram i ett flöde som konstant upp…</Description>
+      <Url>https://feber.se/film/netflix-testar-tiktok-liknande-funktion-for-barn/431653/</Url>
+      <UrlToImage>https://static.feber.se/article_images/52/52/69/525269.jpg</UrlToImage>
+      <PublishedAt>2021-11-10T09:51:17Z</PublishedAt>
+      <Content>Nyhetsbyrån Bloomberg rapporterar att Netflix har börjat testa en ny funktion i sin iOS-app vilken man kallar för Kids Clips.
+Kids Clips beskrivs som "tiktok-liknande" funktion som visar korta snutt… [+485 chars]</Content>
+    </Article>
+    <Article>
+      <Source>
+        <Name>Newsner.com</Name>
+      </Source>
+      <Title>Efter Abba-succén – nu öppnar Björn och Benny dörren för nytt stort uppdrag - MSN</Title>
+      <Description>För drygt en vecka sedan bröt Abba en 40 år lång väntan när de släppte albumet ”Voyage”. Men det stoppar inte stjärnorna från att planera nästa stora projekt. I en ny intervju avslöjar Björn Ulvaeus ... Artikeln Efter Abba-succén – nu öppnar Björn och Benny d…</Description>
+      <Url>https://nojeslivet.newsner.com/musik/efter-abba-succen-nu-oppnar-bjorn-och-benny-dorren-for-nytt-stort-uppdrag/</Url>
+      <UrlToImage>https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AAQlII9.img?h=315&amp;w=600&amp;m=6&amp;q=60&amp;o=t&amp;l=f&amp;f=jpg&amp;x=392&amp;y=117</UrlToImage>
+      <PublishedAt>2021-11-10T09:46:55Z</PublishedAt>
+      <Content>För drygt en vecka sedan bröt Abba en 40 år lång väntan när de släppte albumet Voyage.
+Men det stoppar inte stjärnorna från att planera nästa stora projekt.
+I en ny intervju avslöjar Björn Ulvaeus … [+3865 chars]</Content>
+    </Article>
+    <Article>
+      <Source>
+        <Name>Hallandsposten.se</Name>
+      </Source>
+      <Author>TT</Author>
+      <Title>Vårturné för Markus Krunegård - Hallandsposten</Title>
+      <Description />
+      <Url>https://www.hallandsposten.se/nöje/vårturné-för-markus-krunegård-1.58921215</Url>
+      <UrlToImage>http://www.hallandsposten.se/image/policy:1.58921206:1636537090/image.jpg?f=Wide%26w=1200%26%24p%24f%24w=834285a</UrlToImage>
+      <PublishedAt>2021-11-10T09:38:08Z</PublishedAt>
+      <Content>Markus Krunegård tar med sig nya albumet "Kemtvätten" på turné nästa år. Turnén "Krunehof" tar avstamp i Göteborg i början av mars och avslutas i Kopparberg i april.
+"En illusion, en fri plats, istä… [+539 chars]</Content>
+    </Article>
+    <Article>
+      <Source>
+        <Name>Resume.se</Name>
+      </Source>
+      <Author>Andreas Rågsjö Thorell</Author>
+      <Title>Åhléns tar hjälp av Yoyo Nasty i årets julkampanj - Resume</Title>
+      <Description>Åhléns kampanj ”Vi släpper loss julen!” tar avstamp i svenskars längtan efter att få fira tillsammans. I år har illustratören och konstnären Yoyo Nasty hjälpt varumärket att skapa en färgstark julvärld.</Description>
+      <Url>https://www.resume.se/marknadsforing/kampanj/ahlens-tar-hjalp-av-yoyo-nasty-i-arets-julkampanj/</Url>
+      <UrlToImage>https://cached-images.bonnier.news/swift/bilder/mly/e2b97152-b57a-4b57-8c64-43d2f4fc3359.jpeg?downsize=4096:*</UrlToImage>
+      <PublishedAt>2021-11-10T09:23:48Z</PublishedAt>
+      <Content>Yoyo Nasty är konstnär och illustratör med en magisterexamen från Konstfack. Hon har medverkat i flertalet konstutställningar i Sverige och utomlands samt olika samarbeten med bland annat Puma, Lars … [+1120 chars]</Content>
+    </Article>
+    <Article>
+      <Source>
+        <Name>Hallandsposten.se</Name>
+      </Source>
+      <Author>TT</Author>
+      <Title>Felix Sandman och Matthew Fox i ny serie - Hallandsposten</Title>
+      <Description />
+      <Url>https://www.hallandsposten.se/nöje/felix-sandman-och-matthew-fox-i-ny-serie-1.58917862</Url>
+      <UrlToImage>http://www.hallandsposten.se/image/policy:1.58917853:1636534573/image.jpg?f=Wide%26w=1200%26%24p%24f%24w=834285a</UrlToImage>
+      <PublishedAt>2021-11-10T08:56:13Z</PublishedAt>
+      <Content>Felix Sandman är klar för en roll i kommande Viaplay-serien "Last light". Rollen blir Sandmans första engelskspråkiga, efter att han tidigare bland annat spelat i den svenska Netflix-serien "Störst a… [+589 chars]</Content>
+    </Article>
+    <Article>
+      <Source>
+        <Name>Www.svt.se</Name>
+      </Source>
+      <Author>SVT Nyheter</Author>
+      <Title>Stig Engströms exfru om Netflix-serien: ”Ett personangrepp” - Sveriges Television</Title>
+      <Description>Det kommer stark kritik mot Netflix dramaserie Den osannolika mördaren. Robert Gustafsson spelar den så kallade Skandiamannen, som i serien mördar Sveriges statsminister Olof Palme. Kulturnyheterna har talat med två av dom verkliga personerna som porträtteras…</Description>
+      <Url>https://www.svt.se/kultur/stig-engstroms-exfru-om-netflix-serien-ett-personangrepp</Url>
+      <UrlToImage>https://www.svtstatic.se/image/custom/650/33160630/1636533306?format=auto&amp;ratio=1.91</UrlToImage>
+      <PublishedAt>2021-11-10T08:35:59Z</PublishedAt>
+      <Content>Ulrika Glaser Rydberg har i medierna kallats vapensamlarens dotter. När Kulturnyheterna träffar henne har hon just sett de fem avsnitten i dramaserien, och är hård i sitt omdöme. I serien framstår he… [+2528 chars]</Content>
+    </Article>
+    <Article>
+      <Source>
+        <Id>svenska-dagbladet</Id>
+        <Name>Svenska Dagbladet</Name>
+      </Source>
+      <Author>Ann Lingebrandt</Author>
+      <Title>Recension: Upphörligheten - Kristoffer Leandoer - Svenska Dagbladet</Title>
+      <Description>RECENSION. Kristoffer Leandoers nya diktsamling kretsar kring dödens oundviklighet – men det är inte dysterheten utan en säregen, lågmäld humor som präglar språket. ”Ibland liknar Leandoers dikter en kompis man kan skratta tillsammans med åt eländet”, skriver…</Description>
+      <Url>https://www.svd.se/leandoer-foljer-forganglighetens-svarta-trad</Url>
+      <UrlToImage>https://svd.vgc.no/v2/images/a8e3877f-0c4f-4886-8c33-d46317516e2d?h=630&amp;q=80&amp;upscale=true&amp;w=1200&amp;s=19457d368e61062c38c7b88e9144bfe7b29e78da</UrlToImage>
+      <PublishedAt>2021-11-10T08:31:20Z</PublishedAt>
+      <Content>Hur ska man hinna med allt? Ibland när jag tittar på mina växande bokhögar som jag vet att jag bara kommer att kunna läsa en bråkdel av drabbas jag av en svindlande känsla av hur snabbt tillvaron rin… [+537 chars]</Content>
+    </Article>
+    <Article>
+      <Source>
+        <Name>Bohuslaningen.se</Name>
+      </Source>
+      <Author>TT</Author>
+      <Title>Anders Jansson turnerar med ny humorshow | BN - Bohusläningen</Title>
+      <Description />
+      <Url>https://www.bohuslaningen.se/kultur-noje/anders-jansson-turnerar-med-ny-humorshow.3d1399fa-247c-5e95-aa80-5ff9827ec257</Url>
+      <UrlToImage>https://prod-adapterstack-articlecontentbucket9fc61520-1hp00vpqohs3v.s3-eu-west-1.amazonaws.com/3d1399fa-247c-5e95-aa80-5ff9827ec257/images/1HN9DNR81QU9bJuQlDNZUuCXBcfQ-REGULAR.jpg</UrlToImage>
+      <PublishedAt>2021-11-10T08:00:00Z</PublishedAt>
+    </Article>
+    <Article>
+      <Source>
+        <Name>Www.dn.se</Name>
+      </Source>
+      <Author>Greta Thurfjell</Author>
+      <Title>Familjen Murdoch står modell för maktkampen i ”Succession” - Dagens Nyheter</Title>
+      <Description>Tre barn som strider om att att ta över affärsimperiet efter sin maktfullkomlige far - det är familjen Murdochs liv men också handlingen i ”Succession”.</Description>
+      <Url>https://www.dn.se/kultur/darfor-ar-familjen-murdochs-liv-lika-dramatiskt-som-succession/</Url>
+      <UrlToImage>https://cached-images.bonnier.news/swift/bilder/mly/654c441d-c0d1-4e04-839c-21fa105a0b90.jpeg?interpolation=lanczos-none&amp;fit=around%7C1024:576&amp;crop=1024:h;center,top&amp;output-quality=80</UrlToImage>
+      <PublishedAt>2021-11-10T07:56:49Z</PublishedAt>
+      <Content>Det enda som under hösten varit mer populärt än att jämföra tv-serien Succession med ett grekiskt drama är att klaga på dem som jämför tv-serien Succession med ett grekiskt drama. Visst är historien … [+8234 chars]</Content>
+    </Article>
+    <Article>
+      <Source>
+        <Name>Www.svt.se</Name>
+      </Source>
+      <Author>SVT Nyheter</Author>
+      <Title>The Pirate Bay blir tv-serie - Sveriges Television</Title>
+      <Description>Händelserna kring den kontroversiella svenska fildelarsajten The Pirate Bay och dess grundare blir dramaserie på SVT. Inspelningen drar i gång nästa höst och för regin står ”Jag är Zlatan”-regissören Jens Sjögren.</Description>
+      <Url>https://www.svt.se/kultur/the-pirate-bay-blir-tv-serie</Url>
+      <UrlToImage>https://www.svtstatic.se/image/custom/650/33159866/1636530736?format=auto&amp;ratio=1.91</UrlToImage>
+      <PublishedAt>2021-11-10T07:45:58Z</PublishedAt>
+      <Content>Året var 2003 och de tre svenska programmerarna Peter Sunde, Fredrik Neij och Gottfrid Swartholm skapade The Pirate Bay världens största sajt för spridning av digitalt material och utmanade därmed fi… [+2068 chars]</Content>
+    </Article>
+    <Article>
+      <Source>
+        <Name>Sverigesradio.se</Name>
+      </Source>
+      <Author>Sveriges Radio</Author>
+      <Title>Charlotte Gainsbourg: Filmen om Jane Birkin lärde mig inget om mamma - Kulturnytt i P1 - Sveriges Radio</Title>
+      <Description>Skådespelaren och regissören Charlotte Gainsbourg är är aktuell på Stockholms filmfestival med en dokumentär om sin mamma Jane Birkin.Filmen ”Jane ...</Description>
+      <Url>https://sverigesradio.se/artikel/charlotte-gainsbourg-filmen-om-jane-birkin-larde-mig-inget-om-mamma</Url>
+      <UrlToImage>https://static-cdn.sr.se/images/478/0bc83395-a4fe-4505-aea9-d9186a0ecf14.jpg</UrlToImage>
+      <PublishedAt>2021-11-10T07:30:59Z</PublishedAt>
+    </Article>
+  </Articles>
+</NewsApiData>

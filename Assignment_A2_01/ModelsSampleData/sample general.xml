@@ -1,0 +1,256 @@
+<?xml version="1.0"?>
+<NewsApiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://mynamespace/test/">
+  <Status>ok</Status>
+  <TotalResults>33</TotalResults>
+  <Articles>
+    <Article>
+      <Source>
+        <Id>goteborgs-posten</Id>
+        <Name>Göteborgs-Posten</Name>
+      </Source>
+      <Author>TT</Author>
+      <Title>Äldre får tredje vaccindos efter fem månader - Göteborgs-Posten</Title>
+      <Description />
+      <Url>https://www.gp.se/nyheter/sverige/äldre-får-tredje-vaccindos-efter-fem-månader-1.58936325</Url>
+      <UrlToImage>http://www.gp.se/image/policy:1.49088608:1623240313/image.jpg?f=Wide%26w=1200%26%24p%24f%24w=834285a</UrlToImage>
+      <PublishedAt>2021-11-10T12:07:53Z</PublishedAt>
+      <Content>Folkhälsomyndigheten (FHM) har beslutat att korta ner det rekommenderade tidsintervallet mellan andra och tredje vaccindosen för personer som är 65 år eller äldre.
+Tidigare gällde minst sex månader … [+470 chars]</Content>
+    </Article>
+    <Article>
+      <Source>
+        <Id>goteborgs-posten</Id>
+        <Name>Göteborgs-Posten</Name>
+      </Source>
+      <Author>Andreas Johnsson</Author>
+      <Title>Henrik Zetterberg och Emma Andersson säljer lyxvillan | GP - Göteborgs-Posten</Title>
+      <Description>Köpte huset för sju år sedan – säljer för mer än dubbla.</Description>
+      <Url>https://www.gp.se/sport/ishockey/henrik-zetterberg-och-emma-andersson-zetterberg-säljer-lyxvillan-för-nästan-30-miljoner-1.58932268</Url>
+      <UrlToImage>http://www.gp.se/image/policy:1.58932264:1636543435/image.jpg?f=Wide%26w=1200%26%24p%24f%24w=834285a</UrlToImage>
+      <PublishedAt>2021-11-10T11:13:26Z</PublishedAt>
+      <Content>2018 meddelade Detroit Red Wings att Henrik Zetterbergs karriär var över. Detta på grund av en efterhängsen ryggskada som gjorde att Zäta inte kunde spela under resterande tiden av sitt kontrakt som … [+1921 chars]</Content>
+    </Article>
+    <Article>
+      <Source>
+        <Name>Moviezine.se</Name>
+      </Source>
+      <Title>Paul Rudd utsedd till årets sexigaste man - MovieZine</Title>
+      <Description>Tidningen People har än en gång hittat Sexiest Man Alive.</Description>
+      <Url>https://www.moviezine.se/nyheter/paul-rudd-utsedd-till-arets-sexigaste-man</Url>
+      <UrlToImage>https://d2iltjk184xms5.cloudfront.net/uploads/photo/file/420676/cf7f8838e97ecb195572f7798e755fe6-rudd.jpeg</UrlToImage>
+      <PublishedAt>2021-11-10T11:00:00Z</PublishedAt>
+      <Content>Utmärkelsen Sexiest Man Alive har sedan år 1985 gått till Hollyoodstjärnor och nöjesprofiler som Mel Gibson, Matthew McConaughey, Johnny Depp, Ryan Reynolds, David Beckham, John Legend och Channing T… [+376 chars]</Content>
+    </Article>
+    <Article>
+      <Source>
+        <Name>Feber.se</Name>
+      </Source>
+      <Title>Gameplay från Grand Theft Auto: The Trilogy läcker. Läcker? - Feber</Title>
+      <Description>Trots att Grand Theft Auto: The Trilogy — The Definitive Edition släpps under morgondagen så har Rockstar inte släppt några vettiga klipp med ren gameplay från spelet. Men folk på internet har lyckats få tag på spelet och läckt lite gameplay på Tuben så vi ka…</Description>
+      <Url>https://feber.se/spel/gameplay-fran-grand-theft-auto-the-trilogy-lacker/431663/</Url>
+      <UrlToImage>https://i.ytimg.com/vi/DE5c6jZpvSA/hqdefault.jpg</UrlToImage>
+      <PublishedAt>2021-11-10T10:30:53Z</PublishedAt>
+      <Content>Trots att Grand Theft Auto: The Trilogy The Definitive Edition släpps under morgondagen så har Rockstar inte släppt några vettiga klipp med ren gameplay från spelet. Men folk på internet har lyckats … [+479 chars]</Content>
+    </Article>
+    <Article>
+      <Source>
+        <Name>Aftonbladet.se</Name>
+      </Source>
+      <Author>John Granlund</Author>
+      <Title>Annie Lööf släpper fram Magdalena Andersson som statsminister - Aftonbladet</Title>
+      <Description>Annie Lööf släpper fram Magdalena Andersson som statsminister. Efter flera nattmanglingar är nu både MP och C nöjda med uppgörelsen om strandskyddet.</Description>
+      <Url>https://www.aftonbladet.se/nyheter/a/oW17jj/annie-loof-slapper-fram-magdalena-andersson-som-statsminister</Url>
+      <UrlToImage>https://images.aftonbladet-cdn.se/v2/images/018a91c4-b006-4f4d-98fa-8e749cc1c0a1?fit=crop&amp;format=auto&amp;h=498&amp;q=50&amp;w=952&amp;s=0f197042478578f813ca563992e41f7f5aeb906d</UrlToImage>
+      <PublishedAt>2021-11-10T10:30:40Z</PublishedAt>
+      <Content>Publicerad: Mindre än 3 tim sedan
+Uppdaterad: Mindre än 20 min sedan
+Annie Lööf släpper fram Magdalena Andersson som statsminister.
+Det står klart efter flera dagars nattmanglingar mellan Centerpa… [+2732 chars]</Content>
+    </Article>
+    <Article>
+      <Source>
+        <Name>Www.dn.se</Name>
+      </Source>
+      <Author>Jonas Desai</Author>
+      <Title>Anna Johansson ställer inte upp för omval – lämnar politiken - DN.SE - Dagens Nyheter</Title>
+      <Description>Anna Johansson kandiderar inte till omval för Socialdemokraterna i Göteborg</Description>
+      <Url>https://www.dn.se/sverige/anna-johansson-staller-inte-upp-for-omval-lamnar-politiken/</Url>
+      <UrlToImage>https://cached-images.bonnier.news/swift/bilder/mly/062da8e5-9f09-4593-9fc7-953f8f0205d3.jpeg?interpolation=lanczos-none&amp;fit=around%7C1024:576&amp;crop=1024:h;center,top&amp;output-quality=80</UrlToImage>
+      <PublishedAt>2021-11-10T10:19:47Z</PublishedAt>
+      <Content>Anna Johansson lämnar en lång politisk karriär bakom sig. 1996 blev hon distriktsordförande för SSU, blev invald i kommunfullmäktige 1999 och var biträdande kommunalråd i Göteborg mellan 2009 och 201… [+1824 chars]</Content>
+    </Article>
+    <Article>
+      <Source>
+        <Name>Sverigesradio.se</Name>
+      </Source>
+      <Author>Sveriges Radio</Author>
+      <Title>Nobelpristagaren Orhan Pamuk riskerar åtal för uppvigling - Kulturnytt i P1 - Sveriges Radio</Title>
+      <Description>Den turkiske nobelpristagaren Orhan Pamuk riskerar att ställas inför rätta för uppvigling på grund av sin nya roman ”Pestnätter”, rapporterar Dagens nyheter.Vissa ...</Description>
+      <Url>https://sverigesradio.se/artikel/nobelpristagaren-orhan-pamuk-riskerar-atal-for-uppvigling</Url>
+      <UrlToImage>https://static-cdn.sr.se/images/478/542beebe-2cdc-4ae8-ab19-28fd94785a5b.jpg</UrlToImage>
+      <PublishedAt>2021-11-10T10:17:14Z</PublishedAt>
+    </Article>
+    <Article>
+      <Source>
+        <Name>Mitti.se</Name>
+      </Source>
+      <Author>Anders Björklund</Author>
+      <Title>Kvinna död i lägenhetsbrand i Nockebyhov - Lokaltidningarna Mitt i Stockholm</Title>
+      <Description>Avled på sjukhuset</Description>
+      <Url>https://www.mitti.se/nyheter/kvinna-dod-i-lagenhetsbrand-i-nockebyhov/repukj!IJf@DEKXtOvjY50Z6dhfw/</Url>
+      <UrlToImage>https://www.mitti.se/_internal/cimg!0/1vlm902emfj5vponfxujdwyu5frm50u.jpeg</UrlToImage>
+      <PublishedAt>2021-11-10T10:16:46Z</PublishedAt>
+      <Content>När larmet kom vid halv nio-tiden var lägenheten enligt uppgifterna till larmcentralen rökfylld. På plats påträffade räddningstjänsten en äldre kvinna som fördes till sjukhus med ambulans.
+ Grannar … [+598 chars]</Content>
+    </Article>
+    <Article>
+      <Source>
+        <Id>goteborgs-posten</Id>
+        <Name>Göteborgs-Posten</Name>
+      </Source>
+      <Author>Joel Tivemo</Author>
+      <Title>Mirko Vicentijevic om Eurovision Song Contest | GP - Göteborgs-Posten</Title>
+      <Description>Berättar om kärleken till Eurovision Song Contest: ”Brinner för det”.</Description>
+      <Url>https://www.gp.se/sport/handboll/önnereds-mirko-vicentijevic-älskar-eurovision-1.58926004</Url>
+      <UrlToImage>http://www.gp.se/image/policy:1.58926000:1636538808/image.jpg?f=Wide%26w=1200%26%24p%24f%24w=834285a</UrlToImage>
+      <PublishedAt>2021-11-10T10:06:38Z</PublishedAt>
+    </Article>
+    <Article>
+      <Source>
+        <Name>Www.dn.se</Name>
+      </Source>
+      <Author>Alexandra Sundqvist</Author>
+      <Title>Alexandra Sundqvist: Så förändrade Spice Girls musikvärlden - DN.SE - Dagens Nyheter</Title>
+      <Description>Dokumentärserien ”Spice Girls. När girl power förändrade världen” visar att kvinnokroppen är och förblir ett slagfält, skriver Alexandra Sundqvist.</Description>
+      <Url>https://www.dn.se/kultur/alexandra-sundqvist-sa-forandrade-spice-girls-systerskap-musikvarlden/</Url>
+      <UrlToImage>https://cached-images.bonnier.news/swift/bilder/mly/0fcea3ac-1626-42c2-9be4-b708335b7f7a.jpeg?interpolation=lanczos-none&amp;fit=around%7C724:408&amp;crop=724:h;center,top&amp;output-quality=80</UrlToImage>
+      <PublishedAt>2021-11-10T10:04:47Z</PublishedAt>
+      <Content>I år är det tjugofem år sedan Spice Girls släppte sitt första album Spice. Det som inleds med monsterhitten Wannabe, vars kantiga produktion, otåliga energi och bjärta musikvideoestetik banade väg fö… [+3013 chars]</Content>
+    </Article>
+    <Article>
+      <Source>
+        <Name>Dagenshandel.se</Name>
+      </Source>
+      <Title>Ica-handlarnas Förbund och AMF lägger bud för att köpa ut Icagruppen från börsen - Dagens Handel</Title>
+      <Description>Vd:n för Ica-handlarnas Förbund om varför en onoterad miljö är bättre: Vi kan vara snabbare i våra beslut och mer långsiktiga i våra investeringar.</Description>
+      <Url>https://www.dagenshandel.se/article/view/818931/icahandlarnas_forbund_och_amf_lagger_bud_for_att_kopa_ut_icagruppen_fran_borsen</Url>
+      <UrlToImage>https://f.nordiskemedier.dk/21wsfpcg37fbh6kb_900_473_q95.jpg</UrlToImage>
+      <PublishedAt>2021-11-10T10:01:03Z</PublishedAt>
+      <Content>Ica-handlarnas Förbund lämnar, tillsammans med AMF Pensionsförsäkring, ett rekommenderat offentligt uppköpserbjudande genom budbolaget Murgröna Holding att förvärva samtliga aktier i Icagruppen för 5… [+2198 chars]</Content>
+    </Article>
+    <Article>
+      <Source>
+        <Name>Www.svt.se</Name>
+      </Source>
+      <Author>SVT Nyheter</Author>
+      <Title>Person har fallit ned i gödselbrunn i Tvååker - Sveriges Television</Title>
+      <Description>Räddningtjänsten räddade under onsdagsförmiddagen en man och hans hund som fallit ner i gödselbrunn på en gård utanför Tvååker i Varbergs kommun.</Description>
+      <Url>https://www.svt.se/nyheter/lokalt/halland/person-har-fallit-ned-i-godselbrunn-i-tvaaker</Url>
+      <UrlToImage>https://www.svtstatic.se/image/custom/650/27820031/1?format=auto&amp;ratio=1.91</UrlToImage>
+      <PublishedAt>2021-11-10T09:31:26Z</PublishedAt>
+      <Content>Larmet inkom till räddningstjänsten strax innan klockan 10.00 under onsdagsförmiddagen, en inringare berättade att en person har ramlat ned i brunnen.
+Vid strax efter klockan 10.30 meddelade räddnin… [+256 chars]</Content>
+    </Article>
+    <Article>
+      <Source>
+        <Name>Www.svt.se</Name>
+      </Source>
+      <Author>SVT Nyheter</Author>
+      <Title>Polen anklagar Ryssland för gränskrisen - Sveriges Television</Title>
+      <Description>Den polske premiärministern Mateusz Morawiecki anklagar Ryssland och Vladimir Putin för att i bakgrunden orkestrera den migrantkris som just nu utspelar sig vid gränsen mellan Polen och Belarus.
+– Rysslands neo-imperialistiska politik är på frammarsch, sa Mor…</Description>
+      <Url>https://www.svt.se/nyheter/inrikes/polen-anklagar-ryssland-for-granskrisen</Url>
+      <UrlToImage>https://www.svtstatic.se/image/custom/650/33160766/1636534294?format=auto&amp;ratio=1.91</UrlToImage>
+      <PublishedAt>2021-11-10T08:51:01Z</PublishedAt>
+      <Content>Tusentals migranter befinner sig alltjämt i området runt gränsstaden Kuznica. I den tilltagande kylan sitter de fastklämda mellan polsk och belarusisk militär, utan möjligheter att röra sig varken vi… [+2074 chars]</Content>
+    </Article>
+    <Article>
+      <Source>
+        <Name>Nyteknik.se</Name>
+      </Source>
+      <Author>Viktor Krylmark</Author>
+      <Title>Test: Motorola Defy (2021) – Hur stryktålig är mobilen egentligen? - Ny Teknik</Title>
+      <Description>Motorola har lanserat en uppföljare till Defy. En stryktålig rackare. Ny Tekniks Viktor Krylmark undersöker exakt hur mycket den tål.</Description>
+      <Url>https://www.nyteknik.se/tester/test-motorola-defy-2021-hur-stryktalig-ar-mobilen-egentligen-7024098</Url>
+      <UrlToImage>https://www.nyteknik.se/e0y1mc-motorola-defy.jpg/binary/original/motorola-defy.jpg</UrlToImage>
+      <PublishedAt>2021-11-10T08:22:00Z</PublishedAt>
+      <Content>Motorola har lanserat en uppföljare till Defy. En stryktålig rackare. Ny Tekniks Viktor Krylmark undersöker exakt hur mycket den tål.Motorola Defy är ingen vanlig mobiltelefon. Det är en mobiltelefon… [+1896 chars]</Content>
+    </Article>
+    <Article>
+      <Source>
+        <Id>svenska-dagbladet</Id>
+        <Name>Svenska Dagbladet</Name>
+      </Source>
+      <Author>Jonas Dagson/TT</Author>
+      <Title>Skolans pengar gick till sexklubbar - Svenska Dagbladet</Title>
+      <Description>I början på november åtalades två personer med koppling till de stoppade Römosseskolorna i Göteborg för grova ekobrott. Nu visar en granskning som GT gjort att delar av de förskingrade miljonerna gått till bland annat sexklubbar och ”vuxenhotell” i Thailand.</Description>
+      <Url>https://www.svd.se/skolans-pengar-gick-till-sexklubbar</Url>
+      <UrlToImage>https://svd.vgc.no/v2/images/1509cc38-862d-4438-9350-68df5f7cab4f?h=630&amp;q=80&amp;upscale=true&amp;w=1200&amp;s=756c7982fe1074d4b4965c45fd41b5f2ab8bf3b9</UrlToImage>
+      <PublishedAt>2021-11-10T08:19:48Z</PublishedAt>
+    </Article>
+    <Article>
+      <Source>
+        <Name>Www.svt.se</Name>
+      </Source>
+      <Author>SVT Sport</Author>
+      <Title>Längdskidor: Chocken: Linn Svahn missar OS - Sveriges Television</Title>
+      <Description>Sprintstjärnan Linn Svahns axelskada är så pass allvarlig att hon missar OS. 
+– I går låg jag på golvet, kramades med min hund och bara grät. Det var nog första gången jag grät så där på två-tre år, säger Linn Svahn till Expressen.</Description>
+      <Url>https://www.svt.se/sport/langdskidor/chocken-linn-svahn-missar-os</Url>
+      <UrlToImage>https://www.svtstatic.se/image/custom/650/33160454/1636532404?format=auto&amp;ratio=1.91</UrlToImage>
+      <PublishedAt>2021-11-10T08:19:41Z</PublishedAt>
+      <Content>Det var i Ulricehamn i februari, två veckor före VM i Oberstdorf, som Svahn kraschade och slog i axeln. Vad ingen visste då, kanske inte ens Svahn själv, var att skadan var så allvarlig att hon nu mi… [+1441 chars]</Content>
+    </Article>
+    <Article>
+      <Source>
+        <Name>Affarsvarlden.se</Name>
+      </Source>
+      <Title>Höstlovet gynnade tjänstesektorn - Affärsvärlden</Title>
+      <Description>Sveriges tjänstesektor såg, under landets höstlovsvecka, den största ökningen av omsättning under en enskild vecka sedan pandemin inleddes.</Description>
+      <Url>https://www.affarsvarlden.se/artikel/hostlovet-gynnade-tjanstesektorn</Url>
+      <UrlToImage>https://affarsvarlden.s3.eu-north-1.amazonaws.com/media/2020/05/20110831/betalning-900.jpg</UrlToImage>
+      <PublishedAt>2021-11-10T08:02:42Z</PublishedAt>
+      <Content>Konsumtionen var nästan 16% högre under förra veckan jämfört med motsvarande vecka i fjol. Jämfört med motsvarande vecka 2019, innan pandemin slog till, var konsumtionen 7% högre.
+”Det är sannolikt … [+710 chars]</Content>
+    </Article>
+    <Article>
+      <Source>
+        <Name>Www.svt.se</Name>
+      </Source>
+      <Author>SVT Nyheter</Author>
+      <Title>The Pirate Bay blir tv-serie - Sveriges Television</Title>
+      <Description>Händelserna kring den kontroversiella svenska fildelarsajten The Pirate Bay och dess grundare blir dramaserie på SVT. Inspelningen drar i gång nästa höst och för regin står ”Jag är Zlatan”-regissören Jens Sjögren.</Description>
+      <Url>https://www.svt.se/kultur/the-pirate-bay-blir-tv-serie</Url>
+      <UrlToImage>https://www.svtstatic.se/image/custom/650/33159866/1636530736?format=auto&amp;ratio=1.91</UrlToImage>
+      <PublishedAt>2021-11-10T07:45:58Z</PublishedAt>
+      <Content>Året var 2003 och de tre svenska programmerarna Peter Sunde, Fredrik Neij och Gottfrid Swartholm skapade The Pirate Bay världens största sajt för spridning av digitalt material och utmanade därmed fi… [+2068 chars]</Content>
+    </Article>
+    <Article>
+      <Source>
+        <Name>Www.svt.se</Name>
+      </Source>
+      <Author>SVT Nyheter</Author>
+      <Title>LO säger ja till las-överenskommelsen - Sveriges Television</Title>
+      <Description>LO svänger och blir en part i den så kallade Las-överenskommelsen.
+Tio av de 14 fackförbunden säger ja till en ny uppgörelse med arbetsgivarna.
+– Min förhoppning är att en svensk modell med starka parter ska fortsätta leverera och att vi med det ska hålla ord…</Description>
+      <Url>https://www.svt.se/nyheter/inrikes/klart-lo-svanger-i-las-fragan</Url>
+      <UrlToImage>https://www.svtstatic.se/image/custom/650/33160950/1636535762?format=auto&amp;ratio=1.91</UrlToImage>
+      <PublishedAt>2021-11-10T07:31:51Z</PublishedAt>
+      <Content>Beslutet togs under ett extra styrelsemöte under tisdagskvällen och innebär att förbundet ställer sig bakom förändringar i arbetsrätten.
+U-svängen från LO kommer efter att en uppgörelse nåtts med ar… [+2646 chars]</Content>
+    </Article>
+    <Article>
+      <Source>
+        <Name>Www.dn.se</Name>
+      </Source>
+      <Author>Lotta Olsson</Author>
+      <Title>Lotta O: Världen ur en blind mullvads synvinkel - DN.SE - Dagens Nyheter</Title>
+      <Description>Kåseri. När synen blev suddigare var det svårt att backa bilen men lätt att oroa sig inför besöket hos optikern. Sen hittades ett extra glasögonpar.</Description>
+      <Url>https://www.dn.se/kultur/lotta-o-varlden-ur-en-blind-mullvads-synvinkel/</Url>
+      <UrlToImage>https://cached-images.bonnier.news/swift/bilder/mly/e409f479-d4ee-4a63-bba4-8e4dc2db4390.jpeg?interpolation=lanczos-none&amp;fit=around%7C1024:576&amp;crop=1024:h;center,top&amp;output-quality=80</UrlToImage>
+      <PublishedAt>2021-11-10T06:55:41Z</PublishedAt>
+      <Content>Plötsligt var jag blind som en mullvad. Eller nå, kanske inte riktigt, men omvärlden började åtminstone bli tämligen suddig. Det gjorde inte så mycket, eftersom jag fortfarande kunde läsa böcker som … [+2146 chars]</Content>
+    </Article>
+  </Articles>
+</NewsApiData>

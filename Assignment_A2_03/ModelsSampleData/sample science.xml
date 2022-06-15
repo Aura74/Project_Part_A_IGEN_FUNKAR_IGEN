@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<NewsApiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://mynamespace/test/">
+  <Status>ok</Status>
+  <TotalResults>7</TotalResults>
+  <Articles>
+    <Article>
+      <Source>
+        <Id>svenska-dagbladet</Id>
+        <Name>Svenska Dagbladet</Name>
+      </Source>
+      <Author>Christina Moberg</Author>
+      <Title>Varför vill politikerna inte tro på vad vi vet? | Christina Moberg - Svenska Dagbladet</Title>
+      <Description>I mer än tvåhundra års tid har naturvetare visat att människans framfart hotar den biologiska mångfalden och att livet på jorden är beroende av den sköra växthuseffekten. Men fortfarande verkar politiken helst vilja hålla vetenskapen på armlängds avstånd.</Description>
+      <Url>https://www.svd.se/varfor-vill-politikerna-inte-tro-pa-vad-vi-vet</Url>
+      <UrlToImage>https://svd.vgc.no/v2/images/195b46bc-08e2-47f7-8861-708cb0502917?h=630&amp;q=80&amp;upscale=true&amp;w=1200&amp;s=6be9ea2315548a29c3c81fc5728f8d8169671420</UrlToImage>
+      <PublishedAt>2021-11-10T06:16:20Z</PublishedAt>
+      <Content>Detta är en understreckare, en fördjupande essä, dagligen i SvD sedan 1918. Åsikter som uttrycks är skribentens egna.
+I dag, den 10 november, infaller Världsvetenskapsdagen för fred och utveckling, … [+374 chars]</Content>
+    </Article>
+    <Article>
+      <Source>
+        <Id>goteborgs-posten</Id>
+        <Name>Göteborgs-Posten</Name>
+      </Source>
+      <Author>TT</Author>
+      <Title>Lex Maria: Vårdbiträde jobbade med corona | GP - Göteborgs-Posten</Title>
+      <Description />
+      <Url>https://www.gp.se/nyheter/sverige/lex-maria-vårdbiträde-jobbade-med-corona-1.58848697</Url>
+      <UrlToImage>http://www.gp.se/image/policy:1.24542798:1582690457/image.jpg?f=Wide%26w=1200%26%24p%24f%24w=834285a</UrlToImage>
+      <PublishedAt>2021-11-09T11:11:17Z</PublishedAt>
+      <Content>När vårdbiträdet gick tillbaka till jobbet trots coronasymptom smittades de boende på äldreboendet i västra Blekinge. Först när en av de boende avled upptäcktes smittan, som vårdbiträdet aldrig provt… [+300 chars]</Content>
+    </Article>
+    <Article>
+      <Source>
+        <Name>Www.hn.se</Name>
+      </Source>
+      <Author>Martin Örtegren</Author>
+      <Title>Falkenbergs VBK:s Einar Andersson stora intresse: matematik | HN - Hallands Nyheter</Title>
+      <Description>”Mattesnillet” om: ✓ att arbeta som lärare ✓ distansförhållandet ✓ hans stora last</Description>
+      <Url>https://www.hn.se/sport/volleyboll/falkenbergs-vbk-s-einar-anderssons-stora-intresse-matematik-1.58456529</Url>
+      <UrlToImage>http://www.hn.se/image/policy:1.58456510:1636437414/image.jpg?f=Wide%26w=1200%26%24p%24f%24w=834285a</UrlToImage>
+      <PublishedAt>2021-11-09T05:56:25Z</PublishedAt>
+    </Article>
+    <Article>
+      <Source>
+        <Name>Aftonbladet.se</Name>
+      </Source>
+      <Author>TT</Author>
+      <Title>Astronauter landade efter halvår i rymden - Aftonbladet</Title>
+      <Description>Efter 200 dagar i rymden har fyra astronauter landat på jorden igen, nästan ett dygn försenade.</Description>
+      <Url>https://www.aftonbladet.se/nyheter/a/bG4O4k/astronauter-landade-efter-halvar-i-rymden</Url>
+      <UrlToImage>https://images.aftonbladet-cdn.se/v2/images/8d6d2176-5310-4e50-add2-67f466ea48a6?fit=crop&amp;format=auto&amp;h=1092&amp;q=50&amp;w=1900&amp;s=8d0674b8012075032c23c2228c7dc7dd9ee3fff2</UrlToImage>
+      <PublishedAt>2021-11-09T04:59:57Z</PublishedAt>
+      <Content>Uppdaterad: Mindre än 3 tim sedan
+Efter 200 dagar i rymden har fyra astronauter landat på jorden igen, nästan ett dygn försenade.
+De fyra har bott på den internationella rymdstationen (ISS) sedan i… [+649 chars]</Content>
+    </Article>
+    <Article>
+      <Source>
+        <Id>svenska-dagbladet</Id>
+        <Name>Svenska Dagbladet</Name>
+      </Source>
+      <Author>Henrik Ennart</Author>
+      <Title>Så vet du om en forskningsnyhet går att lita på - Svenska Dagbladet</Title>
+      <Description>Hur vet jag om en forskningsnyhet går att lita på? SvD:s vetenskaps­reporter Henrik Ennart delar med sig av tips om hur du som läsare kan undvika vanliga fallgropar i nyhetsflödet.</Description>
+      <Url>https://www.svd.se/hur-vet-vi-om-vi-kan-lita-pa-en-forskningsnyhet</Url>
+      <UrlToImage>https://svd.vgc.no/v2/images/cd48dd2d-8242-45fe-a5c8-7639910bda01?h=630&amp;q=80&amp;upscale=true&amp;w=1200&amp;s=1f21432be349f86e5153f6e45db0641c94e2b86c</UrlToImage>
+      <PublishedAt>2021-11-08T04:43:47Z</PublishedAt>
+      <Content>Antalet vetenskapliga studier har flerdubblats på några få år. Samtidigt har både redaktörer för ansedda vetenskapliga tidskrifter och de som förhandsgranskar artiklar varnat för att kvalitén hos mån… [+383 chars]</Content>
+    </Article>
+    <Article>
+      <Source>
+        <Name>Expressen.se</Name>
+      </Source>
+      <Author>jens möller</Author>
+      <Title>Nasas test – ska krascha farkost in i asteroid - Expressen</Title>
+      <Description>Nasas nya test liknar en actionfilm. Om ett par veckor skickar man upp en farkost i rymden med uppdraget att testa jordens försvarsförmåga. Metoden: Krascha rakt in i en asteroid.</Description>
+      <Url>https://www.expressen.se/nyheter/nasas-test-for-att-kunna-radda-jorden/</Url>
+      <UrlToImage>https://static.cdn-expressen.se/images/ad/3f/ad3f925ed80f4e04b0d3456957a528fb/16x9/original.jpg</UrlToImage>
+      <PublishedAt>2021-11-08T02:47:00Z</PublishedAt>
+      <Content>Det liknar slutscenen i storfilmen Deep Impact från 1998, då besättningen på den kärnvapenbestyckade rymdfarkosten Messiah krockar med en komet för att den inte ska kollidera med jorden. 
+Något såda… [+1733 chars]</Content>
+    </Article>
+    <Article>
+      <Source>
+        <Name>Www.dn.se</Name>
+      </Source>
+      <Author>Karin Bojs</Author>
+      <Title>Karin Bojs: Vetet har en ny förälder från Georgiens berg - DN.SE - Dagens Nyheter</Title>
+      <Description>Vårt viktigaste spannmål har tre föräldrar. De från Anatolien och Iran har varit kända ett tag. Men nu dyker det även upp en okänd linje från Georgien.</Description>
+      <Url>https://www.dn.se/vetenskap/karin-bojs-vetet-har-en-ny-foralder-fran-georgiens-berg/</Url>
+      <UrlToImage>https://cached-images.bonnier.news/swift/bilder/mly/7cc72775-f636-4901-8e01-5ac667827421.jpeg?interpolation=lanczos-none&amp;fit=around%7C1024:576&amp;crop=1024:h;center,top&amp;output-quality=80</UrlToImage>
+      <PublishedAt>2021-11-07T21:31:50Z</PublishedAt>
+      <Content>När jag var ung gick jag bagarlinjen på gymnasiet, och arbetade sedan flera år i det yrket. Sedan dess har bröd varit ett specialintresse. Givetvis bakar jag allt bröd hemma till vardags ett grövre s… [+3764 chars]</Content>
+    </Article>
+  </Articles>
+</NewsApiData>

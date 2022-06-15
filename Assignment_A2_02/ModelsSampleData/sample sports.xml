@@ -1,0 +1,270 @@
+<?xml version="1.0"?>
+<NewsApiData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://mynamespace/test/">
+  <Status>ok</Status>
+  <TotalResults>60</TotalResults>
+  <Articles>
+    <Article>
+      <Source>
+        <Name>Hallandsposten.se</Name>
+      </Source>
+      <Author>TT</Author>
+      <Title>PSG-stjärna misshandlad – lagkamrat gripen - Hallandsposten</Title>
+      <Description />
+      <Url>https://www.hallandsposten.se/sport/psg-stjärna-misshandlad-lagkamrat-gripen-1.58938760</Url>
+      <UrlToImage>http://www.hallandsposten.se/image/policy:1.58938708:1636546808/image.jpg?f=Wide%26w=1200%26%24p%24f%24w=834285a</UrlToImage>
+      <PublishedAt>2021-11-10T12:20:12Z</PublishedAt>
+      <Content>Aminata Diallo, stjärna i Paris SG och franska landslaget, greps av polis på onsdagsmorgonen. Enligt ett uttalande från storklubben är gripandet kopplat till misshandeln av Diallos lagkamrat Kheira H… [+351 chars]</Content>
+    </Article>
+    <Article>
+      <Source>
+        <Name>Fotbollskanalen.se</Name>
+      </Source>
+      <Title>Djurgårdens besked - efter talangens återbud: "Får ta sikte på guldstriden" - Fotbollskanalen</Title>
+      <Description>Hampus Finndell har lämnat återbud till U21-landslagssamlingen. Nu bekräftar Djurgården att det beror på sjukdom.</Description>
+      <Url>https://www.fotbollskanalen.se/allsvenskan/djurgardens-besked-efter-talangens-aterbud-far-ta-sikte-pa-guldstriden/</Url>
+      <UrlToImage>https://www.fotbollskanalen.se/ImageHandler.axd?epslanguage=sv&amp;guid=d266a7e0-12d1-4bd1-9728-826bfe44bf13&amp;imageFormat=original</UrlToImage>
+      <PublishedAt>2021-11-10T11:28:00Z</PublishedAt>
+      <Content>I går, tisdag, lämnade Hampus Finndell återbud till U21-landslagssamlingen. Nu bekräftar Djurgården att mittfältaren tvingas tacka nej till Blågult på grund av sjukdom och därmed missar han EM-kvalma… [+659 chars]</Content>
+    </Article>
+    <Article>
+      <Source>
+        <Id>goteborgs-posten</Id>
+        <Name>Göteborgs-Posten</Name>
+      </Source>
+      <Author>Andreas Johnsson</Author>
+      <Title>Henrik Zetterberg och Emma Andersson säljer lyxvillan | GP - Göteborgs-Posten</Title>
+      <Description>Köpte huset för sju år sedan – säljer för mer än dubbla.</Description>
+      <Url>https://www.gp.se/sport/ishockey/henrik-zetterberg-och-emma-andersson-zetterberg-säljer-lyxvillan-för-nästan-30-miljoner-1.58932268</Url>
+      <UrlToImage>http://www.gp.se/image/policy:1.58932264:1636543435/image.jpg?f=Wide%26w=1200%26%24p%24f%24w=834285a</UrlToImage>
+      <PublishedAt>2021-11-10T11:13:26Z</PublishedAt>
+      <Content>2018 meddelade Detroit Red Wings att Henrik Zetterbergs karriär var över. Detta på grund av en efterhängsen ryggskada som gjorde att Zäta inte kunde spela under resterande tiden av sitt kontrakt som … [+1921 chars]</Content>
+    </Article>
+    <Article>
+      <Source>
+        <Name>Fotbolldirekt.se</Name>
+      </Source>
+      <Author>Redaktionen</Author>
+      <Title>Gais bisarra tränarsituation: "Jag har inte fått sparken" - Fotbolldirekt – Experten på svensk fotboll - FotbollDirekt</Title>
+      <Description>Kan komma tillbaka redan nästa säsong</Description>
+      <Url>https://fotbolldirekt.se/2021/11/10/gais-bisarra-tranarsituation-jag-har-inte-fatt-sparken</Url>
+      <UrlToImage>https://static-emp.s3.amazonaws.com/fm/files/3/images/2021-11/BB210809MI023%20(1).jpg</UrlToImage>
+      <PublishedAt>2021-11-10T10:52:39Z</PublishedAt>
+      <Content>×1. VILLKORENS TILLÄMPLIGHET
+För att få tillgång till plus-tjänsten måste du ingå ett avtal med ESMG genom att registrera dig och betala prenumerationsavgiften.
+2. PLUS-TJÄNSTENS INNEHÅLL
+ESMG för… [+10114 chars]</Content>
+    </Article>
+    <Article>
+      <Source>
+        <Name>Fotbollskanalen.se</Name>
+      </Source>
+      <Title>Kval till fotbolls-VM: Så ser du avgörandet på TV4 och C More - Fotbollskanalen</Title>
+      <Description>Nu ska det avgöras. Går Sverige direkt till fotbolls-VM 2022 eller tvingas de spela playoff i mars nästa år? Se samtliga europeiska länders avgörande VM-kvalmatcher exklusivt på TV4 och C More.</Description>
+      <Url>https://www.fotbollskanalen.se/vm-kval/kval-till-fotbolls-vm-sa-ser-du-avgorandet-pa-tv4-och-c-more/</Url>
+      <UrlToImage>https://www.fotbollskanalen.se/ImageHandler.axd?epslanguage=sv&amp;guid=093b56ad-22be-473d-a017-d3e0c5c480ed&amp;imageFormat=original</UrlToImage>
+      <PublishedAt>2021-11-10T10:37:00Z</PublishedAt>
+      <Content>Under torsdagen börjar det avgörande VM-kvalet för samtliga europeiska nationer. Sverige blir klart för fotbolls-VM 2022 vid seger mot Georgien, samtidigt som Spanien tappar poäng mot Grekland. Då ka… [+701 chars]</Content>
+    </Article>
+    <Article>
+      <Source>
+        <Name>Aftonbladet.se</Name>
+      </Source>
+      <Author>Micke Nybrink</Author>
+      <Title>V86, 10 november, Jägersro och Solvalla: Micke Nybrinks V86-tips och krönika - Aftonbladet</Title>
+      <Description>Micke Nybrink analyserar V86-omgången på Jägersro och Solvalla onsdagen den 10 november. Omgången kryddas med 30 miljoner i jackpott. Du får:</Description>
+      <Url>https://www.aftonbladet.se/sportbladet/trav365/a/g6Jz8k/styrkan-avgor--jag-tar-stallning-och-spikar</Url>
+      <UrlToImage>https://images.aftonbladet-cdn.se/v2/images/be9319d5-2401-4af1-b311-49a26903033c?fit=crop&amp;format=auto&amp;h=314&amp;q=50&amp;w=600&amp;s=23db33454ce2874f7d1f6582d0a785c654e56e66</UrlToImage>
+      <PublishedAt>2021-11-10T10:12:20Z</PublishedAt>
+      <Content>Micke Nybrink analyserar V86-omgången på Jägersro och Solvalla onsdagen den 10 november. Omgången kryddas med 30 miljoner i jackpott. Du får:
+check
+Nybrinks analys lopp för lopp
+check
+Tre hetaste… [+27 chars]</Content>
+    </Article>
+    <Article>
+      <Source>
+        <Id>goteborgs-posten</Id>
+        <Name>Göteborgs-Posten</Name>
+      </Source>
+      <Author>Joel Tivemo</Author>
+      <Title>Mirko Vicentijevic om Eurovision Song Contest | GP - Göteborgs-Posten</Title>
+      <Description>Berättar om kärleken till Eurovision Song Contest: ”Brinner för det”.</Description>
+      <Url>https://www.gp.se/sport/handboll/önnereds-mirko-vicentijevic-älskar-eurovision-1.58926004</Url>
+      <UrlToImage>http://www.gp.se/image/policy:1.58926000:1636538808/image.jpg?f=Wide%26w=1200%26%24p%24f%24w=834285a</UrlToImage>
+      <PublishedAt>2021-11-10T10:06:38Z</PublishedAt>
+    </Article>
+    <Article>
+      <Source>
+        <Name>Aftonbladet.se</Name>
+      </Source>
+      <Author>Johan Flinck</Author>
+      <Title>Emil Forsberg ändrar sig – nobbar Malmö FF för Gif Sundsvall - Aftonbladet</Title>
+      <Description>Under EM berättade Emil Forsberg att han skulle återända till Malmö FF med tre landslagspolare. Nu är Gif Sundsvall på v</Description>
+      <Url>https://www.aftonbladet.se/sportbladet/fotboll/a/y49z2K/emil-forsbergs-gir-nobbar-malmo-for-sundsvall</Url>
+      <UrlToImage>https://images.aftonbladet-cdn.se/v2/images/92cd8a57-6417-49fd-8ef5-16b1df6b6c3f?fit=crop&amp;format=auto&amp;h=998&amp;q=50&amp;w=1900&amp;s=0a0e004b29409931819e788899476a10cf80c411</UrlToImage>
+      <PublishedAt>2021-11-10T09:54:47Z</PublishedAt>
+      <Content>Uppdaterad: Mindre än 3 tim sedan
+Under EM berättade Emil Forsberg att han skulle återända till Malmö FF med tre landslagspolare.
+Nu är Gif Sundsvall på väg upp i allsvenskan och då har Foppa sväng… [+2476 chars]</Content>
+    </Article>
+    <Article>
+      <Source>
+        <Name>Www.dn.se</Name>
+      </Source>
+      <Author>Tove Nordenhäll</Author>
+      <Title>Linn Svahn missar OS i Peking - DN.SE - Dagens Nyheter</Title>
+      <Description>Axelskadan efter fallet i världscupen i Ulricehamn var värre än befarat. Men operationen gjordes först i september. ”Jag förbisåg alla signaler.”</Description>
+      <Url>https://www.dn.se/sport/linn-svahn-missar-os-i-peking/</Url>
+      <UrlToImage>https://cached-images.bonnier.news/swift/bilder/mly/422ec630-04f5-40f2-b1eb-f397014c19fb.jpeg?interpolation=lanczos-none&amp;fit=around%7C1024:576&amp;crop=1024:h;center,top&amp;output-quality=80</UrlToImage>
+      <PublishedAt>2021-11-10T08:23:42Z</PublishedAt>
+      <Content>Fallet under världscuptävlingen i Ulricehamn i februari tog värre än vad både Linn Svahn och det medicinska teamet först trodde. En operation av axeln gjordes först för två månader sedan.
+När hon va… [+4048 chars]</Content>
+    </Article>
+    <Article>
+      <Source>
+        <Name>Www.dn.se</Name>
+      </Source>
+      <Author>Pelle Strandman</Author>
+      <Title>Svanberg tillsagd av klubben att vänta med coronavaccin - Dagens Nyheter</Title>
+      <Description>Landslagsmittfältaren Mattias Svanberg blev tillsagd av sin klubb Bologna att inte vaccinera sig eftersom han smittades av covid-19 i somras.</Description>
+      <Url>https://www.dn.se/sport/svanberg-tvungen-att-vanta-med-att-vaccinera-sig/</Url>
+      <UrlToImage>https://cached-images.bonnier.news/swift/bilder/mly/6e1e2f94-154f-4e57-82a5-3574d2c70c08.jpeg?interpolation=lanczos-none&amp;fit=around%7C1024:576&amp;crop=1024:h;center,top&amp;output-quality=80</UrlToImage>
+      <PublishedAt>2021-11-10T08:12:51Z</PublishedAt>
+      <Content>Fotbollslivet leker för Mattias Svanberg i Serie A där han så sent som för ett par dagar sedan blev matchhjälte för sitt Bologna med både mål och assist borta mot Sampdoria.
+ Kul så klart. Man vill … [+2852 chars]</Content>
+    </Article>
+    <Article>
+      <Source>
+        <Name>Aftonbladet.se</Name>
+      </Source>
+      <Author>Felix Tornberg</Author>
+      <Title>Oscar Pistorius kan bli frigiven – på ett villkor - Aftonbladet</Title>
+      <Description>Den förre sprinterstjärnan Oscar Pistorius sköt ihjäl sin partner. Åtta år senare kan han bli villkorligt frigiven – på</Description>
+      <Url>https://www.aftonbladet.se/sportbladet/a/G36Bx4/morddomde-oscar-pistorius-kan-bli-villkorligt-frigiven</Url>
+      <UrlToImage>https://images.aftonbladet-cdn.se/v2/images/a652fd6f-57ce-43be-882b-d2da061f4e5d?fit=crop&amp;format=auto&amp;h=994&amp;q=50&amp;w=1900&amp;s=354f5e53429b4ea71e349c5c4f62418cc6f81312</UrlToImage>
+      <PublishedAt>2021-11-10T07:39:31Z</PublishedAt>
+      <Content>Publicerad: Mindre än 2 tim sedan
+Uppdaterad: Mindre än 20 min sedan
+Den förre sprinterstjärnan Oscar Pistorius sköt ihjäl sin partner.
+Åtta år senare kan han bli villkorligt frigiven på ett villk… [+2198 chars]</Content>
+    </Article>
+    <Article>
+      <Source>
+        <Id>goteborgs-posten</Id>
+        <Name>Göteborgs-Posten</Name>
+      </Source>
+      <Author>Andreas Johnsson</Author>
+      <Title>Las Vegas Raiders bryter med stjärnan – viftade med vapen - Göteborgs-Posten</Title>
+      <Description>Las Vegas Raider har brutit med ytterligare en stjärna. Damon Arnette har tvingats lämna NFL-klubben efter en video där han viftat med vapen och yttrat mordhot. – Det har varit en rad dåliga beslut under det senaste året, säger klubbens general manager Mike M…</Description>
+      <Url>https://www.gp.se/sport/las-vegas-raiders-bryter-med-damon-arnette-efter-mordhot-1.58910428</Url>
+      <UrlToImage>http://www.gp.se/image/policy:1.58910421:1636529564/image.jpg?f=Wide%26w=1200%26%24p%24f%24w=834285a</UrlToImage>
+      <PublishedAt>2021-11-10T07:39:27Z</PublishedAt>
+      <Content>Nyligen valde Las Vegas Raiders att bryta med Henry Ruggs III. Detta efter att han åtalats för rattfylleri och vållande till annans död efter att han varit involverad i en trafikolycka som ledde till… [+2160 chars]</Content>
+    </Article>
+    <Article>
+      <Source>
+        <Name>Hockeysverige.se</Name>
+      </Source>
+      <Author>Rasmus Kågström</Author>
+      <Title>Dahlén målskytt – toppar skytteligan för rookies - Hockeysverige.se</Title>
+      <Description>Dubbelt svenskt i toppen.</Description>
+      <Url>https://hockeysverige.se/2021/11/10/dahlen-malskytt-toppar-skytteligan-for-rookies</Url>
+      <UrlToImage>https://static-emp.s3.amazonaws.com/fm/files/2/images/2021-11/Jonathan%20Dahlen%201.jpg</UrlToImage>
+      <PublishedAt>2021-11-10T07:32:51Z</PublishedAt>
+      <Content>×1. VILLKORENS TILLÄMPLIGHET
+För att få tillgång till plus-tjänsten måste du ingå ett avtal med ESMG genom att registrera dig och betala prenumerationsavgiften.
+2. PLUS-TJÄNSTENS INNEHÅLL
+ESMG för… [+10114 chars]</Content>
+    </Article>
+    <Article>
+      <Source>
+        <Name>Sportbibeln.se</Name>
+      </Source>
+      <Title>Elias Petterssons helfräcka klassmål i natt – räddade sitt Vancouver Canucks i numerärt underläge(!) - MSN</Title>
+      <Description>Slog till i numerärt underläge The post Elias Petterssons helfräcka klassmål i natt – räddade sitt Vancouver Canucks i numerärt underläge(!) appeared first on Sportbibeln.</Description>
+      <Url>https://www.sportbibeln.se/hockey/elias-petterssons-helfracka-klassmal-i-natt-raddade-sitt-vancouver-canucks-i-numerart-underlage/</Url>
+      <UrlToImage>https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AAQwGhg.img?h=630&amp;w=1200&amp;m=6&amp;q=60&amp;o=t&amp;l=f&amp;f=jpg&amp;x=596&amp;y=216</UrlToImage>
+      <PublishedAt>2021-11-10T07:20:27Z</PublishedAt>
+      <Content>Han verkar minst sagt ha hittat formen.
+I natt stod Elias Pettersson för ytterligare ett klassmål när han räddade poäng för sitt Vancouver Canucks.
+Elias Pettersson hade en blytung start på säsonge… [+2621 chars]</Content>
+    </Article>
+    <Article>
+      <Source>
+        <Name>Expressen.se</Name>
+      </Source>
+      <Author>niklas a svensson</Author>
+      <Title>Storspelaren Christers kritik efter omstarten på V75 - Expressen</Title>
+      <Description>Ilskan har varit stor från V75-spelarna efter omstartskaoset på Sundbyholm i lördags. Nu rasar storspelaren Christer ”Krukan” Eriksson, som ligger bakom en av de största V75-vinsterna någonsin – och kräver en upprustning av landets travbanor. – Det är så absu…</Description>
+      <Url>https://www.expressen.se/sport/trav/det-ar-sa-absurt-rena-stenaldern-/</Url>
+      <UrlToImage>https://static.cdn-expressen.se/images/4d/ef/4defa613409240ec87fc5c8c810a5947/16x9/original.jpg</UrlToImage>
+      <PublishedAt>2021-11-10T06:03:00Z</PublishedAt>
+      <Content>Efterspelet efter lördagens V75-omgång på Sundbyholmstravet handlade framför allt om omstarten i Gulddivisionen. 
+Domarna menade att Disco Volante och Ulf Ohlsson fått en flygande start och fattade … [+3595 chars]</Content>
+    </Article>
+    <Article>
+      <Source>
+        <Id>goteborgs-posten</Id>
+        <Name>Göteborgs-Posten</Name>
+      </Source>
+      <Author>Robin Rasper</Author>
+      <Title>Krtiken mot Göteborg Energis nya app – "nyttan begränsad" | GP - Göteborgs-Posten</Title>
+      <Description>Efter nya elnätsavgiften lanserar Göteborg Energi ny app • Frölundabon Lars: ”För min del är nyttan begränsad”</Description>
+      <Url>https://www.gp.se/ekonomi/missen-i-göteborg-energis-nya-el-app-möts-av-kritik-1.58878894</Url>
+      <UrlToImage>http://www.gp.se/image/policy:1.58878886:1636473838/image.jpg?f=Wide%26w=1200%26%24p%24f%24w=834285a</UrlToImage>
+      <PublishedAt>2021-11-10T05:09:56Z</PublishedAt>
+    </Article>
+    <Article>
+      <Source>
+        <Name>Www.svt.se</Name>
+      </Source>
+      <Author>SVT Sport</Author>
+      <Title>Adrian Kempe hjälte mot Montreal | SVT Sport - Sveriges Television</Title>
+      <Description>Förlängningsrysare mot Montreal.
+Då slog Adrian Kempe till – och fixade sjätte raka segern för Los Angeles Kings efter ett solomål.
+– Ruggigt skönt, säger han till Sportbladet.</Description>
+      <Url>https://www.svt.se/sport/ishockey/adrian-kempe-hjalte-mot-montreal</Url>
+      <UrlToImage>https://www.svtstatic.se/image/custom/650/33157834/1636522764?format=auto&amp;ratio=1.91</UrlToImage>
+      <PublishedAt>2021-11-10T05:04:44Z</PublishedAt>
+      <Content>Den svenske landslagsspelaren avgjorde knappt fyra minuter in i förlängningen.
+Centern satte fart från egen blålinje, körde ett varv runt hemmalagets mål, tog en sväng tillbaka till offensiv blålinj… [+884 chars]</Content>
+    </Article>
+    <Article>
+      <Source>
+        <Id>goteborgs-posten</Id>
+        <Name>Göteborgs-Posten</Name>
+      </Source>
+      <Author>TT</Author>
+      <Title>Johnsson om säsongen: Vi är ett bättre lag - Göteborgs-Posten</Title>
+      <Description>På sex matcher har Andreas Johnsson gjort lika många mål som under hela förra säsongen. Det blev två nya när hans New Jersey besegrade Florida. – Jag var väldigt revanschsugen från förra året, säger han till TT.</Description>
+      <Url>https://www.gp.se/sport/johnsson-om-säsongen-vi-är-ett-bättre-lag-1.58901582</Url>
+      <UrlToImage>http://www.gp.se/image/policy:1.58901547:1636518190/image.jpg?f=Wide%26w=1200%26%24p%24f%24w=834285a</UrlToImage>
+      <PublishedAt>2021-11-10T04:22:48Z</PublishedAt>
+      <Content>Andreas Johnsson har haft en dalande måltrend i NHL de senaste åren. 20182019 gjorde han 20, följt av 8 och 5 de följande två.
+Den trenden är nu bruten, i och med att han petade in säsongens femte o… [+3002 chars]</Content>
+    </Article>
+    <Article>
+      <Source>
+        <Name>Hockeysverige.se</Name>
+      </Source>
+      <Title>Bob Murray utreds – nu lämnar han sin roll tills vidare - MSN</Title>
+      <Description>Anaheim Ducks meddelade under kvällen att lagets general manager Bob Murray temporärt kommer att lämna sitt jobb i klubben.Detta på...</Description>
+      <Url>https://hockeysverige.se/2021/11/09/bob-murray-utreds-nu-lamnar-han-sin-roll-tills-vidare</Url>
+      <UrlToImage>https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AAQvSZn.img?h=315&amp;w=600&amp;m=6&amp;q=60&amp;o=t&amp;l=f&amp;f=jpg&amp;x=502&amp;y=255</UrlToImage>
+      <PublishedAt>2021-11-09T22:54:05Z</PublishedAt>
+      <Content>© Tillhandahålls av HockeysverigeAnaheim Ducks meddelade under kvällen att lagets general manager Bob Murray temporärt kommer att lämna sitt jobb i klubben.
+Detta på grund av att det just nu utförs … [+1280 chars]</Content>
+    </Article>
+    <Article>
+      <Source>
+        <Name>Aftonbladet.se</Name>
+      </Source>
+      <Author>Felix Pettersson</Author>
+      <Title>NHL: Carey Price om sitt missbruk – berättar för första gången - Aftonbladet</Title>
+      <Description>Förra månaden tvingades Carey Price söka hjälp för psykisk ohälsa. Nu öppnar han upp om den tuffa tiden. ”Under de senas</Description>
+      <Url>https://www.aftonbladet.se/sportbladet/hockey/a/wO9RXd/carey-price-oppnar-upp-om-missbruket-var-pa-en-valdigt-mork-plats</Url>
+      <UrlToImage>https://images.aftonbladet-cdn.se/v2/images/0ec4036d-7823-48f1-9bd5-8803fdb9ce3e?fit=crop&amp;format=auto&amp;h=994&amp;q=50&amp;w=1900&amp;s=e6840d681ce26b51a70c5af15ecc8cbde1ef4a95</UrlToImage>
+      <PublishedAt>2021-11-09T22:43:47Z</PublishedAt>
+    </Article>
+  </Articles>
+</NewsApiData>

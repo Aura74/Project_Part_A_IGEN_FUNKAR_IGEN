@@ -1,0 +1,11 @@
+﻿
+OpenWeatherService 
+- Once a Forecast is received, either by GeoLocation or by City, the service should fire an event with a message.
+
+Program.Main, 
+- Exception handling should be implemented so incase a forecast is not available for a city an appropriate message should be printed.
+
+should be a subscriber of the event from OpenWeatherService and print out
+the message.
+
+- Modify the caller to make multiple requests to show that cached data is received.

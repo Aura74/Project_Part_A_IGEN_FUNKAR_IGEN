@@ -1,0 +1,433 @@
+﻿
+
+//static ConcurrentDictionary<(int, int), Forecast> _finnsDetCache = new ConcurrentDictionary<(int, int), Forecast>();
+
+        //static ConcurrentDictionary<(DateTime, string), Forecast> _finnsDetCache = new ConcurrentDictionary<(DateTime, string), Forecast>();
+
+		//static ConcurrentDictionary<(string, string), Forecast> _finnsDetCache2 = new ConcurrentDictionary<(string, string), Forecast>();
+
+        //static ConcurrentDictionary<DateTime, Forecast> _finnsDetCache = new ConcurrentDictionary<DateTime, Forecast>();
+
+
+        
+		
+        // mina EventHandler här
+
+        //public event EventHandler OnCachedWeather; //Broadcaster event
+
+        //public void OnWrittenToDisk(string e)
+        //{
+
+        //}
+
+		
+
+
+        
+        
+        //Från där uppe
+        //public event EventHandler<string> WeatherForecastAvailable;// ska den va så
+
+        //protected virtual void MyFirstEvent(EventArgs e)
+        //{
+        //    HereIsTheWeather?.Invoke(this, e); // Invoke if not null
+        //}
+
+        //public event EventHandler OnHereIsTheWeather; //Broadcaster event
+        //public  void MyFirstEvent()
+        //{
+        //    OnHereIsTheWeather.Invoke(this, EventArgs.Empty);
+        //}
+
+
+
+
+		//part of event and cache code here
+                //generate an event with different message if cached data
+                //OnHereIsTheWeather?.Invoke(this, new EventArgs());
+                //var key = (DateTime.Now, forecast.City);
+                //var key = (uri, forecast.City);
+
+
+
+
+
+// // Auto
+        //private async Task<Forecast> ReadWebApiAsync(string uri)
+        //{
+        //    var response = await httpClient.GetAsync(uri);
+        //    if (response.StatusCode == HttpStatusCode.OK)
+        //    {
+        //        var json = await response.Content.ReadAsStringAsync();
+        //        return JsonSerializer.Deserialize<Forecast>(json);
+        //    }
+        //    else
+        //    {
+        //        return null;
+        //    }
+        //}
+
+
+		
+
+
+        //var key = ((latitude, longitude), DateTime.Now.ToString("yyyy-MM-dd HH:mm"));
+                //var key = (DateTime.Now.ToString("yyyy-MM-dd HH:mm"), latitude.ToString());//longitude.ToString()
+
+                //var key = (DateTime.Now.ToString("yyyy-MM-dd HH:mm"), City);
+                //if (!_finnsDetCache.TryGetValue((latitude, longitude), out forecast))
+                //{
+
+
+
+
+				//var key = (DateTime.Now, forecast.City);
+
+                // Ändra till datum
+                //var key = (uri, forecast.City);
+
+
+				
+
+
+
+				//public event Action<object, string> WeatherForecastAvailable;
+
+        //public void OnWeatherForecastAvailable(object sender, string e)
+        //{
+        //    WeatherForecastAvailable?.Invoke(sender, e);
+        //}
+
+        //public event Action<object, string> WeatherForecastNotAvailable;
+
+
+
+
+		
+
+
+
+
+		
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+
+
+
+
+
+using System;
+using System.Collections.Generic;
+using System.Diagnostics;
+using System.Globalization;
+using System.Linq;
+using System.Net;
+using System.Net.Http;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Data;
+using System.Windows.Documents;
+using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
+using System.Windows.Shapes;
+using System.Xml;
+using System.Xml.Linq;
+
+namespace Assignment2
+{
+    public class RSS
+    {
+        public string Title { get; set; }
+        public string Url { get; set; }
+    }
+    public class RSSItem
+    {
+        public string Title { get; set; }
+        public string feedTitle { get; set; }
+        public DateTime Date { get; set; }
+    }
+
+    public partial class MainWindow : Window
+    {
+        private Thickness Spacing = new Thickness(5);
+        private HttpClient Http = new HttpClient();
+        // We will need these as instance variables to access in event handlers.
+        private TextBox AddFeedTextBox;
+        private Button AddFeedButton;
+        private ComboBox SelectFeedComboBox;
+        private Button LoadArticlesButton;
+        private StackPanel ArticlePanel;
+        public List<RSS> RSSs = new List<RSS>();
+
+        public MainWindow()
+        {
+            InitializeComponent();
+            Start();
+        }
+
+        private void Start()
+        {
+            // Window options
+            Title = "Feed Reader";
+            Width = 800;
+            Height = 400;
+            WindowStartupLocation = WindowStartupLocation.CenterScreen;
+
+            // Scrolling
+            var root = new ScrollViewer();
+            root.VerticalScrollBarVisibility = ScrollBarVisibility.Auto;
+            Content = root;
+
+            // Main grid
+            var grid = new Grid();
+            root.Content = grid;
+            grid.RowDefinitions.Add(new RowDefinition { Height = GridLength.Auto });
+            grid.RowDefinitions.Add(new RowDefinition { Height = GridLength.Auto });
+            grid.RowDefinitions.Add(new RowDefinition());
+            grid.ColumnDefinitions.Add(new ColumnDefinition { Width = GridLength.Auto });
+            grid.ColumnDefinitions.Add(new ColumnDefinition());
+            grid.ColumnDefinitions.Add(new ColumnDefinition { Width = GridLength.Auto });
+            grid.ColumnDefinitions.Add(new ColumnDefinition { Width = GridLength.Auto });
+
+            var addFeedLabel = new Label
+            {
+                Content = "Feed URL:",
+                Margin = Spacing
+            };
+            grid.Children.Add(addFeedLabel);
+
+            AddFeedTextBox = new TextBox
+            {
+                Margin = Spacing,
+                Padding = Spacing
+            };
+            grid.Children.Add(AddFeedTextBox);
+            Grid.SetColumn(AddFeedTextBox, 1);
+
+            AddFeedButton = new Button
+            {
+                Content = "Add Feed",
+                Margin = Spacing,
+                Padding = Spacing
+            };
+            grid.Children.Add(AddFeedButton);
+            Grid.SetColumn(AddFeedButton, 2);
+
+            //Event handler for Add feed button
+            AddFeedButton.Click += new RoutedEventHandler(AddFeed);
+
+            var selectFeedLabel = new Label
+            {
+                Content = "Select Feed:",
+                Margin = Spacing
+            };
+            grid.Children.Add(selectFeedLabel);
+            Grid.SetRow(selectFeedLabel, 1);
+
+            SelectFeedComboBox = new ComboBox
+            {
+                Margin = Spacing,
+                Padding = Spacing,
+                IsEditable = false
+            };
+            grid.Children.Add(SelectFeedComboBox);
+
+            Grid.SetRow(SelectFeedComboBox, 1);
+            Grid.SetColumn(SelectFeedComboBox, 1);
+
+            LoadArticlesButton = new Button
+            {
+                Content = "Load Articles",
+                Margin = Spacing,
+                Padding = Spacing
+            };
+            grid.Children.Add(LoadArticlesButton);
+            Grid.SetRow(LoadArticlesButton, 1);
+            Grid.SetColumn(LoadArticlesButton, 2);
+
+            //Event handler for Load feed button
+            LoadArticlesButton.Click += new RoutedEventHandler(LoadFeed);
+
+            ArticlePanel = new StackPanel
+            {
+                Orientation = Orientation.Vertical,
+                Margin = Spacing
+            };
+            grid.Children.Add(ArticlePanel);
+            Grid.SetRow(ArticlePanel, 2);
+            Grid.SetColumnSpan(ArticlePanel, 3);
+
+            string allFeeds = "All Feeds";
+            SelectFeedComboBox.Items.Add(allFeeds);
+            SelectFeedComboBox.SelectedIndex = 0;
+        }
+        private void RenderItems(RSSItem item)
+        {
+            var articleTitle = new TextBlock
+            {
+                Text = item.Date + " - " + item.Title,
+                FontWeight = FontWeights.Bold,
+                TextTrimming = TextTrimming.CharacterEllipsis
+            };
+            ArticlePanel.Children.Add(articleTitle);
+
+            var articleWebsite = new TextBlock
+            {
+                Text = item.feedTitle
+            };
+            ArticlePanel.Children.Add(articleWebsite);
+        }
+        private async Task<XDocument> LoadDocumentAsync(string url)
+        {
+            //Kept a delay to better see when testing
+            await Task.Delay(1000);
+            var response = await Http.GetAsync(url);
+            response.EnsureSuccessStatusCode();
+            var stream = await response.Content.ReadAsStreamAsync();
+            var feed = XDocument.Load(stream);
+            return feed;
+        }
+        public async void AddFeed(object sender, EventArgs e)
+        {
+            //Deactivates button
+            AddFeedButton.IsEnabled = false;
+            Cursor = Cursors.Wait;
+
+            string path = AddFeedTextBox.Text;
+            var document = await LoadDocumentAsync(path);
+            var title = document.Descendants("title").First().Value;
+
+            SelectFeedComboBox.Items.Add(title);
+            SelectFeedComboBox.Text = title;
+
+            RSSs.Add(new RSS() { Title = title, Url = path });
+
+            //Activate button when feed is added
+            AddFeedButton.IsEnabled = true;
+            Cursor = Cursors.Arrow;
+        }
+        public async void LoadFeed(object sender, EventArgs e)
+        {
+            //Deactivates the button
+            LoadArticlesButton.IsEnabled = false;
+            Cursor = Cursors.Wait;
+
+            // If we chose index 0 (All feeds) we load 5 articles from each feed
+            var nrFromDropDown = SelectFeedComboBox.SelectedIndex;
+            if (nrFromDropDown == 0)
+            {
+                ArticlePanel.Children.Clear();
+                List<RSSItem> rssItems = new List<RSSItem>();
+                var feedUrls = new List<string>();
+                foreach (var rssFeed in RSSs)
+                {
+                    feedUrls.Add(rssFeed.Url);
+                }
+
+                var tasks = feedUrls.Select(LoadDocumentAsync).ToList();
+                var rssFeedDocuments = await Task.WhenAll(tasks);
+
+                foreach (var feed in rssFeedDocuments)
+                {
+                    var DocumentItemList = new List<RSSItem>();
+                    foreach (var item in feed.Descendants("item"))
+                    {
+                        RSSItem rssItem = new RSSItem();
+                        rssItem.feedTitle = feed.Descendants("title").First().Value;
+                        rssItem.Title = item.Descendants("title").First().Value;
+                        rssItem.Date = DateTime.Parse(item.Descendants("pubDate").First().Value);
+                        DocumentItemList.Add(rssItem);
+                    }
+                    var rssFeedItemSort = DocumentItemList.OrderByDescending(i => i.Date);
+
+                    foreach (var articleItem in rssFeedItemSort.Take(5))
+                    {
+                        rssItems.Add(articleItem);
+                    }
+                }
+                var rssItemsSort = rssItems.OrderByDescending(i => i.Date);
+
+                foreach (var item in rssItemsSort)
+                {
+                    RenderItems(item);
+                }
+                LoadArticlesButton.IsEnabled = true;
+                Cursor = Cursors.Arrow;
+            }
+            // If we choose any other index we load the selected feed
+            else
+            {
+                ArticlePanel.Children.Clear();
+                //Deactivates button
+                LoadArticlesButton.IsEnabled = false;
+                Cursor = Cursors.Wait;
+
+                var movie = RSSs[nrFromDropDown - 1];
+                string path = movie.Url;
+                var document = await LoadDocumentAsync(path);
+                var title = document.Descendants("title").First().Value;
+                var allTitles = document.Descendants("title").Select(t => t.Value).ToArray();
+                var allpubDates = document.Descendants("pubDate").Select(t => t.Value).ToArray();
+
+                var articleList = new List<RSSItem>();
+
+                for (int i = 2; i < 7; i++)
+                {
+                    articleList.Add(new RSSItem
+                    {
+                        Title = allTitles[i],
+                        Date = DateTime.ParseExact(allpubDates[i - 1].Substring(0, 25),
+                        "ddd, dd MMM yyyy HH:mm:ss", CultureInfo.InvariantCulture),
+                        feedTitle = title
+                    });
+                }
+                var sortedArticles = articleList.OrderByDescending(t => t.Date);
+
+                foreach (var a in sortedArticles)
+                {
+                    RenderItems(a);
+                    //Activates button when loading is done
+                    LoadArticlesButton.IsEnabled = true;
+                    Cursor = Cursors.Arrow;
+                }
+            }
+        }
+    }
+}
