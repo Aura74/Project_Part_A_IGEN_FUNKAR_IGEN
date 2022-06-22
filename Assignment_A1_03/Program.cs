@@ -5,10 +5,12 @@ using System.Threading;
 using System.Net.Http;
 using System.Net.Http.Json;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Threading.Tasks;
 using System.Text.Json;
 using Assignment_A1_03.Models;
 using Assignment_A1_03.Services;
+using System.Timers;
 
 namespace Assignment_A1_03
 {
@@ -36,19 +38,29 @@ namespace Assignment_A1_03
                 double latitude = 59.5086798659495;
                 double longitude = 18.2654625932976;
 
+                var timer = new Stopwatch();
+                timer.Start();
+                
                 t1 = service.GetForecastAsync(latitude, longitude);
                 t2 = service.GetForecastAsync("Miami");
-                
+
                 Task.WaitAll(t1, t2);
-                Console.WriteLine("Task 1 an 2 completed");
+
+                timer.Stop();
+                Console.WriteLine(timer.ElapsedMilliseconds);
+                Console.WriteLine("Task 1 an 2 completed\n");
                 Console.WriteLine();
+                
+                timer.Start();
                 
                 t3 = service.GetForecastAsync(latitude, longitude);
                 t4 = service.GetForecastAsync("Miami");
                 
                 //Wait and confirm we get an event showing cahced data avaialable
                 Task.WaitAll(t3, t4);
-                Console.WriteLine("Task 3 an 4 completed");
+                timer.Stop();
+                Console.WriteLine(timer.ElapsedMilliseconds);
+                Console.WriteLine("Task 3 an 4 completed\n");
 
                 //int milliseconds = 1000;
                 //Thread.Sleep(milliseconds);
@@ -59,17 +71,19 @@ namespace Assignment_A1_03
                 Console.WriteLine("Exception: " + ex.Message);
                 exception = ex;
             }
-
             try
             {
-                Console.WriteLine();
+                var timer = new Stopwatch();    
+                timer.Start();
+
                 Console.WriteLine("*******************************************************");
                 Console.WriteLine("------t1-----------");
-                Console.WriteLine("*******************************************************");
+                Console.WriteLine("*******************************************************\n");
                 if (t1?.Status == TaskStatus.RanToCompletion)
                 {
                     Forecast forecast = t1.Result;
                     Console.WriteLine($"Weather forecast for {forecast.City}");
+                    Console.WriteLine($"Weather forecast for {forecast.City2}");
                     var GroupedList = forecast.Items.GroupBy(item => item.DateTime.Date);
                     foreach (var group in GroupedList)
                     {
@@ -94,6 +108,7 @@ namespace Assignment_A1_03
                 {
                     Forecast forecast = t2.Result;
                     Console.WriteLine($"Weather forecast for {forecast.City}");
+                    Console.WriteLine($"Weather forecast for {forecast.City2}");
                     var GroupedList = forecast.Items.GroupBy(item => item.DateTime.Date);
                     foreach (var group in GroupedList)
                     {
@@ -109,17 +124,22 @@ namespace Assignment_A1_03
                     Console.WriteLine($"City weather service error");
                     Console.WriteLine($"Error: {exception.Message}");
                 }
+                timer.Stop();
+                Console.WriteLine(timer.ElapsedMilliseconds);
 
+                timer.Start();
                 Console.WriteLine();
                 Console.WriteLine("*******************************************************");
                 Console.WriteLine("------t3-----------");
                 Console.WriteLine("*******************************************************");
                 try
                 {
+                    
                     if (t3?.Status == TaskStatus.RanToCompletion)
                     {
                         Forecast forecast = t3.Result;
                         Console.WriteLine($"Weather forecast for {forecast.City}");
+                        Console.WriteLine($"Weather forecast for {forecast.City2}");
                         var GroupedList = forecast.Items.GroupBy(item => item.DateTime.Date);
                         foreach (var group in GroupedList)
                         {
@@ -146,33 +166,36 @@ namespace Assignment_A1_03
                 Console.WriteLine("------t4-----------");
                 Console.WriteLine("*******************************************************");
 
-                try// HJÄLPER INTE
+                //try// HJÄLPER INTE
+                //{
+                if (t4.Status == TaskStatus.RanToCompletion)// fel
                 {
-                    if (t4.Status == TaskStatus.RanToCompletion)// fel
+                    Forecast forecast = t4.Result;
+                    Console.WriteLine($"Weather forecast for {forecast.City}");
+                    Console.WriteLine($"Weather forecast for {forecast.City2}");
+                    var GroupedList = forecast.Items.GroupBy(item => item.DateTime.Date);
+                    foreach (var group in GroupedList)
                     {
-                        Forecast forecast = t4.Result;
-                        Console.WriteLine($"Weather forecast for {forecast.City}");
-                        var GroupedList = forecast.Items.GroupBy(item => item.DateTime.Date);
-                        foreach (var group in GroupedList)
+                        Console.WriteLine(group.Key.Date.ToShortDateString());
+                        foreach (var item in group)
                         {
-                            Console.WriteLine(group.Key.Date.ToShortDateString());
-                            foreach (var item in group)
-                            {
-                                Console.WriteLine(
-                                    $"   - {item.DateTime.ToShortTimeString()}: {item.Description}, teperature: {item.Temperature} degC, wind: {item.WindSpeed} m/s");
-                            }
+                            Console.WriteLine(
+                                $"   - {item.DateTime.ToShortTimeString()}: {item.Description}, teperature: {item.Temperature} degC, wind: {item.WindSpeed} m/s");
                         }
                     }
-                    else
-                    {
-                        Console.WriteLine($"City weather service error");
-                        Console.WriteLine($"Error: {exception.Message}");
-                    }
                 }
-                catch
+                else
                 {
-                    Console.WriteLine("FEL IGEN");
+                    Console.WriteLine($"City weather service error");
+                    Console.WriteLine($"Error: {exception.Message}");
                 }
+                timer.Stop();
+                Console.WriteLine(timer.ElapsedMilliseconds);
+                //}
+                //catch
+                //{
+                //    Console.WriteLine("FEL IGEN");
+                //}
             }
             catch (Exception ex)
             {

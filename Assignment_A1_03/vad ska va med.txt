@@ -5,7 +5,6 @@ OpenWeatherService
 Program.Main, 
 - Exception handling should be implemented so incase a forecast is not available for a city an appropriate message should be printed.
 
-should be a subscriber of the event from OpenWeatherService and print out
-the message.
+should be a subscriber of the event from OpenWeatherService and print out the message.
 
 - Modify the caller to make multiple requests to show that cached data is received.
