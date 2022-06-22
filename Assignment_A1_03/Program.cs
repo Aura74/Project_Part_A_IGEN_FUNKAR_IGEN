@@ -101,7 +101,7 @@ namespace Assignment_A1_03
                 Console.WriteLine("*******************************************************");
                 Console.WriteLine("------t2-----------");
                 Console.WriteLine("*******************************************************");
-                if (t2.Status == TaskStatus.RanToCompletion)
+                if (t2?.Status == TaskStatus.RanToCompletion)
                 {
                     Forecast forecast = t2.Result;
                     Console.WriteLine($"Weather forecast for {forecast.City}");
@@ -162,9 +162,10 @@ namespace Assignment_A1_03
 
                     //try// HJÄLPER INTE
                     //{
-                    if (t4.Status == TaskStatus.RanToCompletion)// fel
+                    if (t4?.Status == TaskStatus.RanToCompletion)// fel
                     {
-                        Forecast forecast = t4.Result;
+                        //throw new Exception("KaBoom!!");
+                    Forecast forecast = t4.Result;
                         Console.WriteLine($"Weather forecast for {forecast.City}");
                         Console.WriteLine($"Weather forecast for {forecast.City2}");
                         var GroupedList = forecast.Items.GroupBy(item => item.DateTime.Date);
