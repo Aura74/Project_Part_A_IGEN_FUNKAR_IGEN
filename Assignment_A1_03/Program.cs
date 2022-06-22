@@ -1,16 +1,9 @@
-﻿using System;
-using System.Linq;
-using System.Net;
-using System.Threading;
-using System.Net.Http;
-using System.Net.Http.Json;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.Threading.Tasks;
-using System.Text.Json;
-using Assignment_A1_03.Models;
+﻿using Assignment_A1_03.Models;
 using Assignment_A1_03.Services;
-using System.Timers;
+using System;
+using System.Diagnostics;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace Assignment_A1_03
 {
@@ -40,7 +33,7 @@ namespace Assignment_A1_03
 
                 var timer = new Stopwatch();
                 timer.Start();
-                
+
                 t1 = service.GetForecastAsync(latitude, longitude);
                 t2 = service.GetForecastAsync("Miami");
 
@@ -50,12 +43,12 @@ namespace Assignment_A1_03
                 Console.WriteLine(timer.ElapsedMilliseconds);
                 Console.WriteLine("Task 1 an 2 completed\n");
                 Console.WriteLine();
-                
+
                 timer.Start();
-                
+
                 t3 = service.GetForecastAsync(latitude, longitude);
                 t4 = service.GetForecastAsync("Miami");
-                
+
                 //Wait and confirm we get an event showing cahced data avaialable
                 Task.WaitAll(t3, t4);
                 timer.Stop();
@@ -71,10 +64,14 @@ namespace Assignment_A1_03
                 Console.WriteLine("Exception: " + ex.Message);
                 exception = ex;
             }
+
+
+
+
             try
             {
-                var timer = new Stopwatch();    
-                timer.Start();
+                //var timer = new Stopwatch();    
+                //timer.Start();
 
                 Console.WriteLine("*******************************************************");
                 Console.WriteLine("------t1-----------");
@@ -124,17 +121,17 @@ namespace Assignment_A1_03
                     Console.WriteLine($"City weather service error");
                     Console.WriteLine($"Error: {exception.Message}");
                 }
-                timer.Stop();
-                Console.WriteLine(timer.ElapsedMilliseconds);
+                //timer.Stop();
+                //Console.WriteLine(timer.ElapsedMilliseconds);
 
-                timer.Start();
+                //timer.Start();
                 Console.WriteLine();
                 Console.WriteLine("*******************************************************");
                 Console.WriteLine("------t3-----------");
                 Console.WriteLine("*******************************************************");
-                try
-                {
-                    
+                //try
+                //{
+
                     if (t3?.Status == TaskStatus.RanToCompletion)
                     {
                         Forecast forecast = t3.Result;
@@ -155,46 +152,50 @@ namespace Assignment_A1_03
                         Console.WriteLine($"Geolocation weather service error.");
                         Console.WriteLine($"Error: {exception.Message}");
                     }
-                }
-                catch
-                {
-                    Console.WriteLine("FEL");
-                }
-                
-                Console.WriteLine();
-                Console.WriteLine("*******************************************************");
-                Console.WriteLine("------t4-----------");
-                Console.WriteLine("*******************************************************");
 
-                //try// HJÄLPER INTE
-                //{
-                if (t4.Status == TaskStatus.RanToCompletion)// fel
-                {
-                    Forecast forecast = t4.Result;
-                    Console.WriteLine($"Weather forecast for {forecast.City}");
-                    Console.WriteLine($"Weather forecast for {forecast.City2}");
-                    var GroupedList = forecast.Items.GroupBy(item => item.DateTime.Date);
-                    foreach (var group in GroupedList)
+
+
+                    Console.WriteLine();
+                    Console.WriteLine("*******************************************************");
+                    Console.WriteLine("------t4-----------");
+                    Console.WriteLine("*******************************************************");
+
+                    //try// HJÄLPER INTE
+                    //{
+                    if (t4.Status == TaskStatus.RanToCompletion)// fel
                     {
-                        Console.WriteLine(group.Key.Date.ToShortDateString());
-                        foreach (var item in group)
+                        Forecast forecast = t4.Result;
+                        Console.WriteLine($"Weather forecast for {forecast.City}");
+                        Console.WriteLine($"Weather forecast for {forecast.City2}");
+                        var GroupedList = forecast.Items.GroupBy(item => item.DateTime.Date);
+                        foreach (var group in GroupedList)
                         {
-                            Console.WriteLine(
-                                $"   - {item.DateTime.ToShortTimeString()}: {item.Description}, teperature: {item.Temperature} degC, wind: {item.WindSpeed} m/s");
+                            Console.WriteLine(group.Key.Date.ToShortDateString());
+                            foreach (var item in group)
+                            {
+                                Console.WriteLine(
+                                    $"   - {item.DateTime.ToShortTimeString()}: {item.Description}, teperature: {item.Temperature} degC, wind: {item.WindSpeed} m/s");
+                            }
                         }
                     }
-                }
-                else
-                {
-                    Console.WriteLine($"City weather service error");
-                    Console.WriteLine($"Error: {exception.Message}");
-                }
-                timer.Stop();
-                Console.WriteLine(timer.ElapsedMilliseconds);
+                    else
+                    {
+                        Console.WriteLine($"City weather service error");
+                        Console.WriteLine($"Error: {exception.Message}");
+                    }
+                //timer.Stop();
+                //Console.WriteLine(timer.ElapsedMilliseconds);
                 //}
                 //catch
                 //{
                 //    Console.WriteLine("FEL IGEN");
+                //}
+            //}
+                //catch (Exception ex)
+                //{
+                //    //if exception write the message later
+                //    Console.WriteLine("NÅGOT GICK FEL Exception: " + ex.Message);
+                //    exception = ex;
                 //}
             }
             catch (Exception ex)
@@ -203,7 +204,7 @@ namespace Assignment_A1_03
                 Console.WriteLine("NÅGOT GICK FEL Exception: " + ex.Message);
                 exception = ex;
             }
-            
+
         }
         // EVENTHANDLER - SUBSCRIBER-DELEN 1 -- 
         static void AppLogWrittenHandler(object sender, string wd)
