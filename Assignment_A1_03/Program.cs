@@ -54,9 +54,6 @@ namespace Assignment_A1_03
                 timer.Stop();
                 Console.WriteLine(timer.ElapsedMilliseconds);
                 Console.WriteLine("Task 3 an 4 completed\n");
-
-                //int milliseconds = 1000;
-                //Thread.Sleep(milliseconds);
             }
             catch (Exception ex)
             {
@@ -66,13 +63,8 @@ namespace Assignment_A1_03
             }
 
 
-
-
             try
             {
-                //var timer = new Stopwatch();    
-                //timer.Start();
-
                 Console.WriteLine("*******************************************************");
                 Console.WriteLine("------t1-----------");
                 Console.WriteLine("*******************************************************\n");
@@ -121,16 +113,11 @@ namespace Assignment_A1_03
                     Console.WriteLine($"City weather service error");
                     Console.WriteLine($"Error: {exception.Message}");
                 }
-                //timer.Stop();
-                //Console.WriteLine(timer.ElapsedMilliseconds);
 
-                //timer.Start();
                 Console.WriteLine();
                 Console.WriteLine("*******************************************************");
                 Console.WriteLine("------t3-----------");
                 Console.WriteLine("*******************************************************");
-                //try
-                //{
 
                     if (t3?.Status == TaskStatus.RanToCompletion)
                     {
@@ -153,18 +140,14 @@ namespace Assignment_A1_03
                         Console.WriteLine($"Error: {exception.Message}");
                     }
 
-
-
                     Console.WriteLine();
                     Console.WriteLine("*******************************************************");
                     Console.WriteLine("------t4-----------");
                     Console.WriteLine("*******************************************************");
 
-                    //try// HJÄLPER INTE
-                    //{
                     if (t4?.Status == TaskStatus.RanToCompletion)// fel
                     {
-                        //throw new Exception("KaBoom!!");
+
                     Forecast forecast = t4.Result;
                         Console.WriteLine($"Weather forecast for {forecast.City}");
                         Console.WriteLine($"Weather forecast for {forecast.City2}");
@@ -184,20 +167,6 @@ namespace Assignment_A1_03
                         Console.WriteLine($"City weather service error");
                         Console.WriteLine($"Error: {exception.Message}");
                     }
-                //timer.Stop();
-                //Console.WriteLine(timer.ElapsedMilliseconds);
-                //}
-                //catch
-                //{
-                //    Console.WriteLine("FEL IGEN");
-                //}
-            //}
-                //catch (Exception ex)
-                //{
-                //    //if exception write the message later
-                //    Console.WriteLine("NÅGOT GICK FEL Exception: " + ex.Message);
-                //    exception = ex;
-                //}
             }
             catch (Exception ex)
             {
