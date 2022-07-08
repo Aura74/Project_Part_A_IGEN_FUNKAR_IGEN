@@ -16,17 +16,17 @@ namespace Assignment_A1_03.Services
         // part of your event and cache code here
         static ConcurrentDictionary<(string, string), Forecast> _finnsDetCache = new ConcurrentDictionary<(string, string), Forecast>();
 
-        // BROADCASTER/EVENT-DELEN 1  --  Broadcaster eventet
-        public static event EventHandler<string> WrittenToFile, WrittenToFile2;// WrittenToFile är Event/deligate-variabel
+        // PUBLISHER/BROADCASTER/EVENT-DEL 1  --  Broadcaster, DETTA ÄR eventet,
+        public static event EventHandler<string> WeatherForecastAvailable, WeatherForecastAvailable2;// WeatherForecastAvailable är Event/deligate-variabel
 
-        // BROADCASTER/EVENT-DELEN 2  --  AVFYRA/INVOKERA EVENTET WrittenToFile  
+        // PUBLISHER/BROADCASTER/EVENT-DEL 2  --  Syftet med denna: AVFYRAR/INVOKERA EVENTET -WeatherForecastAvailable  
         public void OnWrittenToFile(string e) // OnWrittenToFile metoden, hittas av service.??
-        {
-            WrittenToFile?.Invoke(this, e);
+        { 
+            WeatherForecastAvailable?.Invoke(this, e);
         }
         public void OnWrittenToFile2(string e) // OnWrittenToFile en metod
         {
-            WrittenToFile2?.Invoke(this, e);
+            WeatherForecastAvailable2?.Invoke(this, e);
             if (_finnsDetCache.Count == 0)
             {
                 Console.WriteLine("Det finns INGET i CACHEN, den är tom just nu.\n");
@@ -45,8 +45,9 @@ namespace Assignment_A1_03.Services
             Forecast forecast = null;
             var key = (DateTime.Now.ToString("yyyy-MM-dd HH:mm"), City);
 
-            // BROADCASTER/EVENT-DELEN 3  --  Anropar eventet
+            // BROADCASTER/EVENT-DELEN 3  --  AVFYRNINGEN AV eventet
             OnWrittenToFile($"Från OnWrittenToFile1 alldeles innan cachen i CITY-delen\n ska visas både om det finns data i cachen eller inte. Har nu fått info från Program.cs att City: {City}\n");
+            
             OnWrittenToFile2("Meddelande från OnWrittenToFile2, är placerad innan cachen i CITY-delen.");
 
             if (!_finnsDetCache.TryGetValue(key, out forecast))
@@ -63,9 +64,9 @@ namespace Assignment_A1_03.Services
                 //generate an event with different message if cached data
                 _finnsDetCache[key] = forecast;
 
-                OnWrittenToFile($"CITY Hämtat från NÄTET/API inte från cachen.\n DETTA ÄR IFRÅN ETT EVENT MEASSGE från - GetForecastAsync(string City)\n uri: {uri}\n");
+                OnWrittenToFile($"***{_finnsDetCache.TryGetValue(key, out forecast)}*** CITY Hämtat från NÄTET/API inte från cachen.\n DETTA ÄR IFRÅN ETT EVENT MEASSGE från - GetForecastAsync(string City)\n uri: {uri}\n");
             }
-            OnWrittenToFile("ALLDELES OVAN return forecast i City-delen MIAMI\n");
+            OnWrittenToFile("ALLDELES OVAN return forecast i City-delen MIAMI\nOnce a Forecast is received, either by GeoLocation or by City, the service should fire an event with a message.\n");
             return forecast;
         }
 
@@ -101,7 +102,7 @@ namespace Assignment_A1_03.Services
 
                 _finnsDetCache[key] = forecast; // var _finnsDetCache2 förut
             }
-            OnWrittenToFile("ALLDELES OVAN LONG LAT-delens return forecast, borde visas vid båda tillfällerna\n ");
+            OnWrittenToFile($"***{_finnsDetCache.TryGetValue(key, out forecast)}*** ALLDELES OVAN LONG LAT-delens return forecast, borde visas vid båda tillfällerna\n Once a Forecast is received, either by GeoLocation or by City, the service should fire an event with a message.\n");
             return forecast;
 
             //part of event and cache code here

@@ -15,44 +15,33 @@ namespace Assignment_A1_03
             OpenWeatherService service = new OpenWeatherService();
             //service.WeatherForecastAvailable += ReportWeatherDataAvailable;
 
-            //service.OnWrittenToFile += AppLogWrittenHandler;
-            // kolla //Utveckling med ramverket i .NET_-20220524_132610.mp4
-            //och https://github.com/martinlenart/ADOPM3_08/blob/master/ADOPM3_08_06/Program.cs
-            //Utveckling med ramverket i .NET_-20220524_141854.mp4
+            // ASSAIGNA EVENTHANDLERN - SUBSCRIBER-DEL 2 -- kan vara vartsomhelst,
+            OpenWeatherService.WeatherForecastAvailable += AppLogWrittenHandler;
+            OpenWeatherService.WeatherForecastAvailable2 += AppLogWrittenHandler;
 
-            // ASSAIGNA EVENTHANDLERN - SUBSCRIBER-DELEN 2 -- kan vara vartsomhelst,
-            OpenWeatherService.WrittenToFile += AppLogWrittenHandler;
-            OpenWeatherService.WrittenToFile2 += AppLogWrittenHandler;
+            //OpenWeatherService.WeatherForecastAvailable += ReportWeatherDataAvailable;
+            //OpenWeatherService.WeatherForecastAvailable2 += ReportWeatherDataAvailable;
 
-            Task<Forecast> t1 = null, t2 = null, t3 = null, t4 = null;
+            Task <Forecast> t1 = null, t2 = null, t3 = null, t4 = null;
             Exception exception = null;
             try
             {
                 double latitude = 59.5086798659495;
                 double longitude = 18.2654625932976;
 
-                var timer = new Stopwatch();
-                timer.Start();
-
                 t1 = service.GetForecastAsync(latitude, longitude);
                 t2 = service.GetForecastAsync("Miami");
 
                 Task.WaitAll(t1, t2);
 
-                timer.Stop();
-                Console.WriteLine(timer.ElapsedMilliseconds);
                 Console.WriteLine("Task 1 an 2 completed\n");
                 Console.WriteLine();
-
-                timer.Start();
 
                 t3 = service.GetForecastAsync(latitude, longitude);
                 t4 = service.GetForecastAsync("Miami");
 
                 //Wait and confirm we get an event showing cahced data avaialable
                 Task.WaitAll(t3, t4);
-                timer.Stop();
-                Console.WriteLine(timer.ElapsedMilliseconds);
                 Console.WriteLine("Task 3 an 4 completed\n");
             }
             catch (Exception ex)
@@ -61,7 +50,6 @@ namespace Assignment_A1_03
                 Console.WriteLine("Exception: " + ex.Message);
                 exception = ex;
             }
-
 
             try
             {
