@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace Assignment_A1_03
 {
-    class Program
+    class Program 
     {
-        static async Task Main(string[] args)
+        static async Task Main(string[] args)// Main är subscriber av event
         {
             //Register the event
             OpenWeatherService service = new OpenWeatherService();
@@ -111,7 +111,7 @@ namespace Assignment_A1_03
                     {
                         Forecast forecast = t3.Result;
                         Console.WriteLine($"Weather forecast for {forecast.City}");
-                        Console.WriteLine($"Weather forecast for {forecast.City2}");
+                        //Console.WriteLine($"Weather forecast for {forecast.City2}");
                         var GroupedList = forecast.Items.GroupBy(item => item.DateTime.Date);
                         foreach (var group in GroupedList)
                         {
@@ -125,7 +125,7 @@ namespace Assignment_A1_03
                     else
                     {
                         Console.WriteLine($"Geolocation weather service error.");
-                        Console.WriteLine($"Error: {exception.Message}");
+                        //Console.WriteLine($"Error: {exception.Message}");
                     }
 
                     Console.WriteLine();
@@ -138,7 +138,7 @@ namespace Assignment_A1_03
 
                     Forecast forecast = t4.Result;
                         Console.WriteLine($"Weather forecast for {forecast.City}");
-                        Console.WriteLine($"Weather forecast for {forecast.City2}");
+                        //Console.WriteLine($"Weather forecast for {forecast.City2}");
                         var GroupedList = forecast.Items.GroupBy(item => item.DateTime.Date);
                         foreach (var group in GroupedList)
                         {
@@ -153,7 +153,7 @@ namespace Assignment_A1_03
                     else
                     {
                         Console.WriteLine($"City weather service error");
-                        Console.WriteLine($"Error: {exception.Message}");
+                        //Console.WriteLine($"Error: {exception.Message}");
                     }
             }
             catch (Exception ex)

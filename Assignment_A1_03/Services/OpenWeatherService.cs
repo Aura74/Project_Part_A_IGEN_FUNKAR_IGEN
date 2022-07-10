@@ -8,12 +8,13 @@ using System.Threading.Tasks;
 
 namespace Assignment_A1_03.Services
 {
-    public class OpenWeatherService : EventArgs // tror inte EventArgs ska vara där???
+    public class OpenWeatherService //: EventArgs // tror inte EventArgs ska vara där???
     {
         HttpClient httpClient = new HttpClient();
         readonly string apiKey = "cad5fcb116a44f89fda1cf6556bc21dd";
 
         // part of your event and cache code here
+        
         static ConcurrentDictionary<(string, string), Forecast> _finnsDetCache = new ConcurrentDictionary<(string, string), Forecast>();
 
         // PUBLISHER/BROADCASTER/EVENT-DEL 1  --  Broadcaster, DETTA ÄR eventet,
@@ -44,27 +45,26 @@ namespace Assignment_A1_03.Services
 
             Forecast forecast = null;
             var key = (DateTime.Now.ToString("yyyy-MM-dd HH:mm"), City);
-
+            //Console.WriteLine(key);
             // BROADCASTER/EVENT-DELEN 3  --  AVFYRNINGEN AV eventet
-            OnWrittenToFile($"Från OnWrittenToFile1 alldeles innan cachen i CITY-delen\n ska visas både om det finns data i cachen eller inte. Har nu fått info från Program.cs att City: {City}\n");
+            ////OnWrittenToFile($"Från OnWrittenToFile1 alldeles innan cachen i CITY-delen\n ska visas både om det finns data i cachen eller inte. Har nu fått info från Program.cs att City: {City}\n");
             
-            OnWrittenToFile2("Meddelande från OnWrittenToFile2, är placerad innan cachen i CITY-delen.");
+            ////OnWrittenToFile2("Meddelande från OnWrittenToFile2, är placerad innan cachen i CITY-delen.");
 
             if (!_finnsDetCache.TryGetValue(key, out forecast))
             {
                 var language = System.Globalization.CultureInfo.CurrentUICulture.TwoLetterISOLanguageName;
                 var uri = $"https://api.openweathermap.org/data/2.5/forecast?q={City}&units=metric&lang={language}&appid={apiKey}";
 
-                //int milliseconds = 1000;
-                //Thread.Sleep(milliseconds);
-
                 forecast = await ReadWebApiAsync(uri);
-
                 //part of event and cache code here
                 //generate an event with different message if cached data
+                
                 _finnsDetCache[key] = forecast;
 
-                OnWrittenToFile($"***{_finnsDetCache.TryGetValue(key, out forecast)}*** CITY Hämtat från NÄTET/API inte från cachen.\n DETTA ÄR IFRÅN ETT EVENT MEASSGE från - GetForecastAsync(string City)\n uri: {uri}\n");
+                OnWrittenToFile($"***{_finnsDetCache.TryGetValue(key, out forecast)}*** CITY Hämtat från NÄTET/API inte från cachen.\n DETTA ÄR IFRÅN ETT EVENT MEASSGE från - GetForecastAsync(string City), BORDE BARA VISAS NÄR CACH ÄR TOM. \n uri: {uri}\n");
+
+                OnWrittenToFile2("nya cach nya cach *-*-/-*-*-/-*-*/-.");
             }
             OnWrittenToFile("ALLDELES OVAN return forecast i City-delen MIAMI\nOnce a Forecast is received, either by GeoLocation or by City, the service should fire an event with a message.\n");
             return forecast;
@@ -75,21 +75,14 @@ namespace Assignment_A1_03.Services
         public async Task<Forecast> GetForecastAsync(double latitude, double longitude)
         {
             //part of cache code here
-
-            double value1 = latitude;
-            double value2 = longitude;
-            //Console.WriteLine(value1.ToString());
-            string stringV1 = value1.ToString();
-            //Console.WriteLine(value2.ToString());
-            string stringV2 = value2.ToString();
-            string str = $"{stringV1}{stringV2}";
-            //Console.WriteLine(str);
+            
+            string str = $"{latitude.ToString()}{longitude.ToString()}"; // räcker med denna
 
             Forecast forecast = null;
             var key = (DateTime.Now.ToString("yyyy-MM-dd HH:mm"), str);
-            OnWrittenToFile2("Meddelande från OnWrittenToFile2, är placerad innan cachen i Long Lat-delen");
-            
-            //OnWrittenToFile("OnWrittenToFile alldeles innan cachen i LONG LAT - delen");
+            ////OnWrittenToFile2("Meddelande från OnWrittenToFile2, är placerad innan cachen i Long Lat-delen");
+            Console.WriteLine(key);
+            ////OnWrittenToFile("OnWrittenToFile alldeles innan cachen i LONG LAT - delen");
             if (!_finnsDetCache.TryGetValue(key, out forecast))
             {
                 var language = System.Globalization.CultureInfo.CurrentUICulture.TwoLetterISOLanguageName;
@@ -105,9 +98,7 @@ namespace Assignment_A1_03.Services
             OnWrittenToFile($"***{_finnsDetCache.TryGetValue(key, out forecast)}*** ALLDELES OVAN LONG LAT-delens return forecast, borde visas vid båda tillfällerna\n Once a Forecast is received, either by GeoLocation or by City, the service should fire an event with a message.\n");
             return forecast;
 
-            //part of event and cache code here
-            //generate an event with different message if cached data ????????????????
-        }
+        }// slutet på public async Task<Forecast> GetForecastAsync
 
         // För både lat och city
         private async Task<Forecast> ReadWebApiAsync(string uri)
@@ -139,11 +130,11 @@ namespace Assignment_A1_03.Services
             return forecast;
         }
 
-        private DateTime UnixTimeStampToDateTime(double unixTimeStamp)
-        {
-            DateTime dateTime = new DateTime(1970, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc);
-            dateTime = dateTime.AddSeconds(unixTimeStamp).ToLocalTime();
-            return dateTime;
-        }
+        //private DateTime UnixTimeStampToDateTime(double unixTimeStamp)
+        //{
+        //    DateTime dateTime = new DateTime(1970, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc);
+        //    dateTime = dateTime.AddSeconds(unixTimeStamp).ToLocalTime();
+        //    return dateTime;
+        //}
     }
 }
