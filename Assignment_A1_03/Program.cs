@@ -18,6 +18,8 @@ namespace Assignment_A1_03
             // ASSAIGNA EVENTHANDLERN - SUBSCRIBER-DEL 2 -- kan vara vartsomhelst,
             OpenWeatherService.WeatherForecastAvailable += AppLogWrittenHandler;
             OpenWeatherService.WeatherForecastAvailable2 += AppLogWrittenHandler;
+            // Från katan
+            //HiltonMembers.ListSortedEvent += ListSortedEventHandler;
 
             //OpenWeatherService.WeatherForecastAvailable += ReportWeatherDataAvailable;
             //OpenWeatherService.WeatherForecastAvailable2 += ReportWeatherDataAvailable;
@@ -40,6 +42,7 @@ namespace Assignment_A1_03
                 t3 = service.GetForecastAsync(latitude, longitude);
                 t4 = service.GetForecastAsync("Miami");
 
+
                 //Wait and confirm we get an event showing cahced data avaialable
                 Task.WaitAll(t3, t4);
                 Console.WriteLine("Task 3 an 4 completed\n");
@@ -59,6 +62,7 @@ namespace Assignment_A1_03
                 if (t1?.Status == TaskStatus.RanToCompletion)
                 {
                     Forecast forecast = t1.Result;
+                    
                     Console.WriteLine($"Weather forecast for {forecast.City}");
                     Console.WriteLine($"Weather forecast for {forecast.City2}");
                     var GroupedList = forecast.Items.GroupBy(item => item.DateTime.Date);
@@ -164,8 +168,11 @@ namespace Assignment_A1_03
             }
 
         }
+
+
+
         // EVENTHANDLER - SUBSCRIBER-DELEN 1 -- 
-        static void AppLogWrittenHandler(object sender, string wd)
+        static void AppLogWrittenHandler(object sender, string wd)// object sender this
         {
             Console.WriteLine($"Event-Meddelandet LYDER: {wd}");
         }
@@ -174,5 +181,12 @@ namespace Assignment_A1_03
         {
             Console.WriteLine($"NYTT NYTT NYTT NYTT: {wd}");
         }
+
+        // Från katan
+        static void ListSortedEventHandler(object? sender, int NrOfItems)
+        {
+            Console.WriteLine($"#### {NrOfItems} sorted");
+        }
+
     }
 }

@@ -68,8 +68,12 @@ namespace Assignment_A1_02.Services
 		public void OnWeatherForecastAvailable(object sender, string e)
         {
             WeatherForecastAvailable?.Invoke(sender, e);
-			Console.WriteLine("Det fungerade - Va bra" + e);
+
         }
+
+		public event Action<bool, string> WeatherForecastNotAvailableTEST1;
+
+		//WeatherForecastNotAvailableTEST1?.Invoke(true, "WeatherForecastNotAvailableTEST1");
 
 		//public async Task<Forecast> GetForecastAsync(string city, string country)
 		//{

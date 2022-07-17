@@ -1,9 +1,11 @@
 ﻿using Assignment_A1_03.Models;
 using System;
 using System.Collections.Concurrent;
+using System.Diagnostics;
 using System.Linq;
 using System.Net.Http;
 using System.Net.Http.Json;
+using System.Reflection;
 using System.Threading.Tasks;
 
 namespace Assignment_A1_03.Services
@@ -17,14 +19,34 @@ namespace Assignment_A1_03.Services
         
         static ConcurrentDictionary<(string, string), Forecast> _finnsDetCache = new ConcurrentDictionary<(string, string), Forecast>();
 
-        // PUBLISHER/BROADCASTER/EVENT-DEL 1  --  Broadcaster, DETTA ÄR eventet,
-        public static event EventHandler<string> WeatherForecastAvailable, WeatherForecastAvailable2;// WeatherForecastAvailable är Event/deligate-variabel
+        // PUBLISHER/BROADCASTER/EVENT-DEL 1  --  Broadcaster, DETTA ÄR eventet, Tar en string som parameter
+        public static event EventHandler<string> WeatherForecastAvailable, WeatherForecastAvailable2;// WeatherForecastAvailable är en Event/deligate-variabel
+
+
+
+
+        ////Event handler and On... Method that fires the event, Från katan
+        //public EventHandler<int> ListSortedEvent;
+        //public void OnListSorted(int NrOfItems) => ListSortedEvent?.Invoke(this, NrOfItems);
+
+        ////Modified Sort that invokes the ListSorted event
+        //public void Sort()
+        //{
+        //    _members.Sort();
+        //    OnListSorted(_members.Count);
+        //}
+
+
+
+
+
 
         // PUBLISHER/BROADCASTER/EVENT-DEL 2  --  Syftet med denna: AVFYRAR/INVOKERA EVENTET -WeatherForecastAvailable  
         public void OnWrittenToFile(string e) // OnWrittenToFile metoden, hittas av service.??
         { 
             WeatherForecastAvailable?.Invoke(this, e);
         }
+        
         public void OnWrittenToFile2(string e) // OnWrittenToFile en metod
         {
             WeatherForecastAvailable2?.Invoke(this, e);
@@ -38,18 +60,42 @@ namespace Assignment_A1_03.Services
             }
         }
 
+
+
         // City-delen
         public async Task<Forecast> GetForecastAsync(string City)
         {
             //part of cache code here
+            
 
             Forecast forecast = null;
             var key = (DateTime.Now.ToString("yyyy-MM-dd HH:mm"), City);
-            //Console.WriteLine(key);
-            // BROADCASTER/EVENT-DELEN 3  --  AVFYRNINGEN AV eventet
-            ////OnWrittenToFile($"Från OnWrittenToFile1 alldeles innan cachen i CITY-delen\n ska visas både om det finns data i cachen eller inte. Har nu fått info från Program.cs att City: {City}\n");
+			//Console.WriteLine(key);
+			// BROADCASTER/EVENT-DELEN 3  --  AVFYRNINGEN AV eventet
+			////OnWrittenToFile($"Från OnWrittenToFile1 alldeles innan cachen i CITY-delen\n ska visas både om det finns data i cachen eller inte. Har nu fått info från Program.cs att City: {City}\n");
+
+			////OnWrittenToFile2("Meddelande från OnWrittenToFile2, är placerad innan cachen i CITY-delen.");
+
+
+			if (_finnsDetCache.Count == 0)
+			{
+                OnWrittenToFile2("Från IF-Satsen Forecast hämtas nu från Nätet - openweather api");
+            }
+            else
+            {
+                OnWrittenToFile2("Från IF-Satsen Forecast hämtas nu från CACHEN");
+            }
+
+            _finnsDetCache.Keys.ToList().ForEach(x =>
+            {
+                Console.WriteLine($"Key: {x}");
+            });
             
-            ////OnWrittenToFile2("Meddelande från OnWrittenToFile2, är placerad innan cachen i CITY-delen.");
+            _finnsDetCache.IsEmpty.ToString();
+            _finnsDetCache.ContainsKey(key).ToString();
+            _finnsDetCache.Keys.Contains(key).ToString();
+            _finnsDetCache.GetHashCode().ToString();
+            _finnsDetCache.All(x => x.Key.Equals(key)).ToString();
 
             if (!_finnsDetCache.TryGetValue(key, out forecast))
             {
@@ -59,7 +105,7 @@ namespace Assignment_A1_03.Services
                 forecast = await ReadWebApiAsync(uri);
                 //part of event and cache code here
                 //generate an event with different message if cached data
-                
+
                 _finnsDetCache[key] = forecast;
 
                 OnWrittenToFile($"***{_finnsDetCache.TryGetValue(key, out forecast)}*** CITY Hämtat från NÄTET/API inte från cachen.\n DETTA ÄR IFRÅN ETT EVENT MEASSGE från - GetForecastAsync(string City), BORDE BARA VISAS NÄR CACH ÄR TOM. \n uri: {uri}\n");
