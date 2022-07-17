@@ -70,32 +70,33 @@ namespace Assignment_A1_03.Services
 
             Forecast forecast = null;
             var key = (DateTime.Now.ToString("yyyy-MM-dd HH:mm"), City);
-			//Console.WriteLine(key);
-			// BROADCASTER/EVENT-DELEN 3  --  AVFYRNINGEN AV eventet
-			////OnWrittenToFile($"Från OnWrittenToFile1 alldeles innan cachen i CITY-delen\n ska visas både om det finns data i cachen eller inte. Har nu fått info från Program.cs att City: {City}\n");
+            //Console.WriteLine(key);
+            // BROADCASTER/EVENT-DELEN 3  --  AVFYRNINGEN AV eventet
+            ////OnWrittenToFile($"Från OnWrittenToFile1 alldeles innan cachen i CITY-delen\n ska visas både om det finns data i cachen eller inte. Har nu fått info från Program.cs att City: {City}\n");
 
-			////OnWrittenToFile2("Meddelande från OnWrittenToFile2, är placerad innan cachen i CITY-delen.");
+            ////OnWrittenToFile2("Meddelande från OnWrittenToFile2, är placerad innan cachen i CITY-delen.");
 
-
-			if (_finnsDetCache.Count == 0)
+            if (!_finnsDetCache.IsEmpty) 
+            //if (_finnsDetCache.ContainsKey(key))
+            //if (_finnsDetCache.Count == 0)
 			{
-                OnWrittenToFile2("Från IF-Satsen Forecast hämtas nu från Nätet - openweather api");
+                //OnWrittenToFile2("Från IF-Satsen Forecast hämtas nu från Nätet - openweather api");
+                OnWrittenToFile2("Från IF-Satsen Forecast hämtas nu från CACHEN");
             }
             else
             {
-                OnWrittenToFile2("Från IF-Satsen Forecast hämtas nu från CACHEN");
+                //OnWrittenToFile2("Från IF-Satsen Forecast hämtas nu från CACHEN");
+                OnWrittenToFile2("Från IF-Satsen Forecast hämtas nu från Nätet - openweather api");
             }
 
             _finnsDetCache.Keys.ToList().ForEach(x =>
             {
                 Console.WriteLine($"Key: {x}");
             });
+
             
-            _finnsDetCache.IsEmpty.ToString();
             _finnsDetCache.ContainsKey(key).ToString();
-            _finnsDetCache.Keys.Contains(key).ToString();
-            _finnsDetCache.GetHashCode().ToString();
-            _finnsDetCache.All(x => x.Key.Equals(key)).ToString();
+
 
             if (!_finnsDetCache.TryGetValue(key, out forecast))
             {
