@@ -22,9 +22,7 @@ namespace Assignment_A1_03.Services
         // PUBLISHER/BROADCASTER/EVENT-DEL 1  --  Broadcaster, DETTA ÄR eventet, Tar en string som parameter
         public static event EventHandler<string> WeatherForecastAvailable, WeatherForecastAvailable2;// WeatherForecastAvailable är en Event/deligate-variabel
 
-
-
-
+        
         ////Event handler and On... Method that fires the event, Från katan
         //public EventHandler<int> ListSortedEvent;
         //public void OnListSorted(int NrOfItems) => ListSortedEvent?.Invoke(this, NrOfItems);
@@ -36,10 +34,7 @@ namespace Assignment_A1_03.Services
         //    OnListSorted(_members.Count);
         //}
 
-
-
-
-
+        
 
         // PUBLISHER/BROADCASTER/EVENT-DEL 2  --  Syftet med denna: AVFYRAR/INVOKERA EVENTET -WeatherForecastAvailable  
         public void OnWrittenToFile(string e) // OnWrittenToFile metoden, hittas av service.??
@@ -60,8 +55,7 @@ namespace Assignment_A1_03.Services
             }
         }
 
-
-
+        
         // City-delen
         public async Task<Forecast> GetForecastAsync(string City)
         {
@@ -107,8 +101,6 @@ namespace Assignment_A1_03.Services
                 //part of event and cache code here
                 //generate an event with different message if cached data
 
-                _finnsDetCache[key] = forecast;
-
                 OnWrittenToFile($"***{_finnsDetCache.TryGetValue(key, out forecast)}*** CITY Hämtat från NÄTET/API inte från cachen.\n DETTA ÄR IFRÅN ETT EVENT MEASSGE från - GetForecastAsync(string City), BORDE BARA VISAS NÄR CACH ÄR TOM. \n uri: {uri}\n");
 
                 OnWrittenToFile2("nya cach nya cach *-*-/-*-*-/-*-*/-.");
@@ -141,6 +133,7 @@ namespace Assignment_A1_03.Services
                 //generate an event with different message if cached data
 
                 _finnsDetCache[key] = forecast; // var _finnsDetCache2 förut
+
             }
             OnWrittenToFile($"***{_finnsDetCache.TryGetValue(key, out forecast)}*** ALLDELES OVAN LONG LAT-delens return forecast, borde visas vid båda tillfällerna\n Once a Forecast is received, either by GeoLocation or by City, the service should fire an event with a message.\n");
             return forecast;

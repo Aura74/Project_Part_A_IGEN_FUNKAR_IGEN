@@ -31,17 +31,17 @@ namespace Assignment_A1_03
                 double latitude = 59.5086798659495;
                 double longitude = 18.2654625932976;
 
+                string CityToSearchFor = "Miami";
+
                 t1 = service.GetForecastAsync(latitude, longitude);
-                t2 = service.GetForecastAsync("Miami");
+                t2 = service.GetForecastAsync(CityToSearchFor);
 
                 Task.WaitAll(t1, t2);
 
                 Console.WriteLine("Task 1 an 2 completed\n");
-                Console.WriteLine();
 
                 t3 = service.GetForecastAsync(latitude, longitude);
-                t4 = service.GetForecastAsync("Miami");
-
+                t4 = service.GetForecastAsync(CityToSearchFor);
 
                 //Wait and confirm we get an event showing cahced data avaialable
                 Task.WaitAll(t3, t4);
