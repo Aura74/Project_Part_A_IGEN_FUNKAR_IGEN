@@ -70,33 +70,33 @@ namespace Assignment_A1_03.Services
 
             ////OnWrittenToFile2("Meddelande från OnWrittenToFile2, är placerad innan cachen i CITY-delen.");
 
-            if (!_finnsDetCache.IsEmpty) 
-            //if (_finnsDetCache.ContainsKey(key))
-            //if (_finnsDetCache.Count == 0)
-			{
-                //OnWrittenToFile2("Från IF-Satsen Forecast hämtas nu från Nätet - openweather api");
-                OnWrittenToFile2("Från IF-Satsen Forecast hämtas nu från CACHEN");
-            }
-            else
-            {
-                //OnWrittenToFile2("Från IF-Satsen Forecast hämtas nu från CACHEN");
-                OnWrittenToFile2("Från IF-Satsen Forecast hämtas nu från Nätet - openweather api");
-            }
+   //         if (!_finnsDetCache.IsEmpty) 
+   //         //if (_finnsDetCache.ContainsKey(key))
+   //         //if (_finnsDetCache.Count == 0)
+			//{
+   //             //OnWrittenToFile2("Från IF-Satsen Forecast hämtas nu från Nätet - openweather api");
+   //             OnWrittenToFile2("Från IF-Satsen Forecast hämtas nu från CACHEN");
+   //         }
+   //         else
+   //         {
+   //             //OnWrittenToFile2("Från IF-Satsen Forecast hämtas nu från CACHEN");
+   //             OnWrittenToFile2("Från IF-Satsen Forecast hämtas nu från Nätet - openweather api");
+   //         }
 
-            _finnsDetCache.Keys.ToList().ForEach(x =>
-            {
-                Console.WriteLine($"Key: {x}");
-            });
+   //         _finnsDetCache.Keys.ToList().ForEach(x =>
+   //         {
+   //             Console.WriteLine($"Key: {x}");
+   //         });
 
             
-            _finnsDetCache.ContainsKey(key).ToString();
+   //         _finnsDetCache.ContainsKey(key).ToString();
 
 
             if (!_finnsDetCache.TryGetValue(key, out forecast))
             {
                 var language = System.Globalization.CultureInfo.CurrentUICulture.TwoLetterISOLanguageName;
                 var uri = $"https://api.openweathermap.org/data/2.5/forecast?q={City}&units=metric&lang={language}&appid={apiKey}";
-
+                //https://api.openweathermap.org/data/2.5/forecast?q=Miami&units=metric&lang=SE&appid=cad5fcb116a44f89fda1cf6556bc21dd
                 forecast = await ReadWebApiAsync(uri);
                 //part of event and cache code here
                 //generate an event with different message if cached data
